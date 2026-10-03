@@ -1,0 +1,19 @@
+{
+  "note": "Task 7 adopted source lists, independently transcribed. No automatic transformation. Punishment edges retain original direction; detection membership is unordered.",
+  "stems": { "sourceIds": ["SMMT-02"], "locator": "論十干合", "members": ["甲己", "乙庚", "丙辛", "丁壬", "戊癸"] },
+  "branches": [
+    { "kind": "liuhe", "sourceIds": ["SMMT-02"], "locator": "論支元六合", "members": ["子丑", "寅亥", "卯戌", "辰酉", "巳申", "午未"] },
+    { "kind": "sanhe", "sourceIds": ["SMMT-02"], "locator": "論支元三合", "members": ["申子辰", "巳酉丑", "寅午戌", "亥卯未"] },
+    { "kind": "fanghe", "sourceIds": ["SMMT-03"], "locator": "論孤辰寡宿 四方; service fanghe label", "members": ["寅卯辰", "巳午未", "申酉戌", "亥子丑"] },
+    { "kind": "clash", "sourceIds": ["SMMT-02"], "locator": "論衝擊", "members": ["子午", "丑未", "寅申", "卯酉", "辰戌", "巳亥"] },
+    { "kind": "harm", "sourceIds": ["SMMT-02"], "locator": "論六害", "members": ["子未", "丑午", "寅巳", "卯辰", "申亥", "酉戌"] },
+    { "kind": "punishment", "sourceIds": ["SMMT-02"], "locator": "論三刑; pairs and complete triples are distinct", "members": ["子卯", "寅巳", "巳申", "申寅", "丑戌", "戌未", "未丑", "寅巳申", "丑戌未"] },
+    { "kind": "self_punishment", "sourceIds": ["SMMT-02"], "locator": "論三刑; separate pillar positions required", "members": ["辰辰", "午午", "酉酉", "亥亥"] },
+    { "kind": "break", "sourceIds": ["SMMT-03"], "locator": "總論諸神煞/破煞; adopted P4", "members": ["卯午", "丑辰", "子酉", "未戌"] }
+  ],
+  "punishmentEdges": {
+    "子卯": ["子卯", "卯子"], "寅巳": ["寅巳"], "巳申": ["巳申"], "申寅": ["申寅"],
+    "丑戌": ["丑戌"], "戌未": ["戌未"], "未丑": ["未丑"],
+    "寅巳申": ["寅巳", "巳申", "申寅"], "丑戌未": ["丑戌", "戌未", "未丑"]
+  }
+}

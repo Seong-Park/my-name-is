@@ -1,0 +1,320 @@
+{
+  "status": "calendar_link_only_not_interpretation_validation",
+  "sourceReview": "2026-10-01-name-mvp-independent-cases.md",
+  "versions": {
+    "engineVersion": "bazi-engine-calendar-v1",
+    "rulesetVersion": "mylife-standard-v1",
+    "calendarVersion": "astronomy-engine@2.1.19/ut-as-utc/espenak-meeus/v1",
+    "timezoneVersion": "moment-timezone@0.6.0/moment@2.31.0/tzdb@2025b",
+    "lunarCalendarVersion": "korean-lunar-calendar@0.4.0"
+  },
+  "timezone": "Asia/Seoul",
+  "longitude": 126.978,
+  "latitude": 37.5665,
+  "results": [
+    {
+      "id": "DTSCW-four-knowledge-wood",
+      "expected": [
+        "壬辰",
+        "壬寅",
+        "甲寅",
+        "庚午"
+      ],
+      "year": 2012,
+      "month": 2,
+      "days": 29,
+      "time": "12:00",
+      "matches": [
+        {
+          "birthDate": "2012-02-23",
+          "birthTime": "12:00",
+          "pillars": [
+            "壬辰",
+            "壬寅",
+            "甲寅",
+            "庚午"
+          ],
+          "completeness": "complete",
+          "normalization": {
+            "kind": "instant",
+            "solarDate": "2012-02-23",
+            "timezoneId": "Asia/Seoul",
+            "evidence": [
+              {
+                "ruleCode": "FOUR_PILLARS_STANDARD_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "birthTime"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timeAccuracy"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "YEAR_LICHUN_UTC_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "MONTH_TWELVE_JIE_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "DAY_SOLAR_2300_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "HOUR_ROLLED_DAY_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              }
+            ],
+            "candidates": [
+              {
+                "instantUtcMs": 1329966000000,
+                "offsetSeconds": 32400,
+                "longitudeSeconds": 30474.719999999998,
+                "equationOfTimeSeconds": -807.5774077589898,
+                "trueSolarTime": {
+                  "date": "2012-02-23",
+                  "time": "11:14:27.142"
+                },
+                "evidence": [
+                  {
+                    "ruleCode": "TRUE_SOLAR_TIME_UTC_LONGITUDE_EOT_V1",
+                    "rulesetVersion": "mylife-standard-v1",
+                    "references": [
+                      {
+                        "kind": "input",
+                        "field": "longitude"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "status": "calendar_equivalent_found"
+    },
+    {
+      "id": "DTSCW-strength-excess-wood",
+      "expected": [
+        "甲辰",
+        "丁卯",
+        "甲子",
+        "戊辰"
+      ],
+      "year": 1964,
+      "month": 3,
+      "days": 31,
+      "time": "08:00",
+      "matches": [
+        {
+          "birthDate": "1964-03-16",
+          "birthTime": "08:00",
+          "pillars": [
+            "甲辰",
+            "丁卯",
+            "甲子",
+            "戊辰"
+          ],
+          "completeness": "complete",
+          "normalization": {
+            "kind": "instant",
+            "solarDate": "1964-03-16",
+            "timezoneId": "Asia/Seoul",
+            "evidence": [
+              {
+                "ruleCode": "FOUR_PILLARS_STANDARD_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "birthTime"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timeAccuracy"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "YEAR_LICHUN_UTC_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "MONTH_TWELVE_JIE_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "DAY_SOLAR_2300_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              },
+              {
+                "ruleCode": "HOUR_ROLLED_DAY_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "birthDate"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "timezoneId"
+                  },
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              }
+            ],
+            "candidates": [
+              {
+                "instantUtcMs": -182912400000,
+                "offsetSeconds": 32400,
+                "longitudeSeconds": 30474.719999999998,
+                "equationOfTimeSeconds": -528.7311584241663,
+                "trueSolarTime": {
+                  "date": "1964-03-16",
+                  "time": "07:19:05.988"
+                },
+                "evidence": [
+                  {
+                    "ruleCode": "TRUE_SOLAR_TIME_UTC_LONGITUDE_EOT_V1",
+                    "rulesetVersion": "mylife-standard-v1",
+                    "references": [
+                      {
+                        "kind": "input",
+                        "field": "longitude"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "status": "calendar_equivalent_found"
+    }
+  ],
+  "limitations": [
+    "UT1 is approximated by UTC; historical instants use proleptic Gregorian UT encoded as UTC.",
+    "Astronomy uncertainty is an engineering budget, not a certified maximum error.",
+    "Independent EoT numerical samples cover 2026 only; historical EoT is not independently certified.",
+    "tzdb 2025b is pinned; historical records and later legal timezone changes can require a versioned update.",
+    "Lunar source range is wider than the common supported birth range; HKO rows are individual Chinese-calendar cross-checks.",
+    "No claim about historical birth dates, expert review, four-method agreement or recommendation eligibility."
+  ]
+}

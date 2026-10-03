@@ -1,0 +1,5870 @@
+{
+  "schemaVersion": 1,
+  "description": "Task 17 Independent Reference Cases (100 cases full benchmark)",
+  "cases": [
+    {
+      "id": "ref-001",
+      "category": "general",
+      "description": "2026-01-02 12:00 UTC (Greenwich, lon 0) - HKO 2026 丙子일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02 丙子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before Lichun is 乙巳 year, month is 戊子; noon hour is 甲午."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-002",
+      "category": "general",
+      "description": "2026-03-01 10:00 UTC (Greenwich, lon 0) - HKO 2026 甲戌일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-03-01 甲戌"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After Lichun is 丙午 year, month 庚寅; true solar hour is 己巳."
+      },
+      "input": {
+        "birthDate": "2026-03-01",
+        "birthTime": "10:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "戌",
+            "index": 10
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "巳",
+            "index": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-003",
+      "category": "general",
+      "description": "2026-01-01 12:00 UTC (Greenwich, lon 0) - HKO 2026 乙亥일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-01 乙亥"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "乙巳 year, 戊子 month, 乙亥 day, 壬午 hour."
+      },
+      "input": {
+        "birthDate": "2026-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "亥",
+            "index": 11
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-004",
+      "category": "general",
+      "description": "2026-01-03 12:00 UTC (Greenwich, lon 0) - HKO 2026 丁丑일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "乙巳 year, 戊子 month, 丁丑 day, 丙午 hour."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-005",
+      "category": "general",
+      "description": "2026-03-02 12:00 UTC (Greenwich, lon 0) - HKO 2026 乙亥일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-03-02 乙亥"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "丙午 year, 庚寅 month, 乙亥 day, 壬午 hour."
+      },
+      "input": {
+        "birthDate": "2026-03-02",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "亥",
+            "index": 11
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-006",
+      "category": "general",
+      "description": "2026-03-03 12:00 UTC (Greenwich, lon 0) - HKO 2026 丙子일 기준",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-03-03 丙子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "丙午 year, 庚寅 month, 丙子 day, 甲午 hour."
+      },
+      "input": {
+        "birthDate": "2026-03-03",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-007",
+      "category": "general",
+      "description": "1924-02-15 12:00 Asia/Shanghai (HKO 1924 갑자년 시작 연도)",
+      "source": {
+        "name": "HKO-ALMANAC-1924",
+        "locator": "1924 甲子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "60-year cycle base year 甲子 year, 丙寅 month."
+      },
+      "input": {
+        "birthDate": "1924-02-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Shanghai",
+        "longitude": 121.47,
+        "latitude": 31.23
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-008",
+      "category": "general",
+      "description": "1984-02-15 12:00 Asia/Seoul (1984 갑자년 60갑자 2주기 시작)",
+      "source": {
+        "name": "CLASSICS-BAZI",
+        "locator": "1984 甲子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "甲子 year, 丙寅 month."
+      },
+      "input": {
+        "birthDate": "1984-02-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-009",
+      "category": "general",
+      "description": "2000-01-01 12:00 Asia/Seoul (새천년 시작일)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2000-01-01 戊午日"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before Lichun 己卯 year, 丙子 month, 戊午 day, 戊午 hour."
+      },
+      "input": {
+        "birthDate": "2000-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "午",
+            "index": 54
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "午",
+            "index": 54
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-010",
+      "category": "general",
+      "description": "2000-06-15 12:00 Asia/Seoul (2000년 하지 부근)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2000-06-15 庚辰년 壬午월"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "庚辰 year, 壬午 month."
+      },
+      "input": {
+        "birthDate": "2000-06-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "辰",
+            "index": 16
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "辰",
+            "index": 40
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-011",
+      "category": "general",
+      "description": "1970-01-01 00:00 UTC (Unix Epoch 기준점)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "1970-01-01T00:00:00Z"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "1969 己酉 year, 丙子 month, 癸丑 day, 壬子 hour."
+      },
+      "input": {
+        "birthDate": "1970-01-01",
+        "birthTime": "00:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-012",
+      "category": "general",
+      "description": "1995-05-20 15:30 Asia/Seoul (도현 기본 페르소나 출생일)",
+      "source": {
+        "name": "CLASSICS-BAZI",
+        "locator": "1995-05-20 乙亥"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "乙亥 year, 辛巳 month, 甲戌 day, 壬申 hour."
+      },
+      "input": {
+        "birthDate": "1995-05-20",
+        "birthTime": "15:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "亥",
+            "index": 11
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "亥",
+            "index": 47
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "申",
+            "index": 32
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-013",
+      "category": "general",
+      "description": "1910-08-29 12:00 Asia/Seoul (대한제국 말기 역사 일자)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "1910-08-29 +08:30 standard time"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "庚戌 year, 甲申 month."
+      },
+      "input": {
+        "birthDate": "1910-08-29",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "戌",
+            "index": 46
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "申",
+            "index": 20
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-014",
+      "category": "general",
+      "description": "1945-08-15 12:00 Asia/Seoul (광복일 일자)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "1945-08-15"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "乙酉 year, 甲申 month, 丙申 day, 乙未 hour."
+      },
+      "input": {
+        "birthDate": "1945-08-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "酉",
+            "index": 21
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "申",
+            "index": 20
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "辰",
+            "index": 52
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-015",
+      "category": "general",
+      "description": "1950-06-25 04:00 Asia/Seoul (한국전쟁 발발일)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "1950-06-25"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "庚寅 year, 壬午 month."
+      },
+      "input": {
+        "birthDate": "1950-06-25",
+        "birthTime": "04:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "卯",
+            "index": 27
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-016",
+      "category": "general",
+      "description": "2010-10-10 10:10 Asia/Seoul (2010년 10월 10일 대칭 일자)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2010-10-10"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "庚寅 year, 丙戌 month."
+      },
+      "input": {
+        "birthDate": "2010-10-10",
+        "birthTime": "10:10",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "戌",
+            "index": 22
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "巳",
+            "index": 53
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-017",
+      "category": "general",
+      "description": "2020-02-29 12:00 Asia/Seoul (2020 윤년 2월 29일)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2020-02-29 윤일"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "庚子 year, 戊寅 month, 癸亥 day, 戊午 hour."
+      },
+      "input": {
+        "birthDate": "2020-02-29",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "寅",
+            "index": 14
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "寅",
+            "index": 38
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-018",
+      "category": "general",
+      "description": "2024-01-01 12:00 Asia/Seoul (갑진년 입춘 전 2023 계묘년 말)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2024-01-01"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "癸卯 year, 甲子 month, 甲子 day, 庚午 hour."
+      },
+      "input": {
+        "birthDate": "2024-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "卯",
+            "index": 39
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-019",
+      "category": "general",
+      "description": "2025-05-05 12:00 Asia/Seoul (을사년 입하 직후)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2025-05-05"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "乙巳 year, 辛巳 month."
+      },
+      "input": {
+        "birthDate": "2025-05-05",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "辰",
+            "index": 16
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "戌",
+            "index": 10
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-020",
+      "category": "general",
+      "description": "2026-12-31 12:00 Asia/Seoul (지원 범위 상한일 연말)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026-12-31"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "丙午 year, 庚子 month."
+      },
+      "input": {
+        "birthDate": "2026-12-31",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-021",
+      "category": "day-hour",
+      "description": "2026-01-02 22:50 Asia/Seoul (태양시 22:18, 23:00 이전 해시, 당일 丙子 유지)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02 丙子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Solar time ~22:18 is Hai hour (21:00-23:00), day remains 丙子, hour 己亥."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": "22:50",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-022",
+      "category": "day-hour",
+      "description": "2026-01-02 23:15 Asia/Seoul (태양시 22:43, 23:00 직전 해시, 당일 丙子 유지)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02 丙子"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Civil 23:15 is solar 22:43 (< 23:00). Day remains 丙子, hour 己亥."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": "23:15",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-023",
+      "category": "day-hour",
+      "description": "2026-01-02 23:45 Asia/Seoul (태양시 23:13, 23:00 경과로 다음날 丁丑일 및 단일 자시 庚子시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02 -> next day 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Solar time ~23:13 crosses day boundary. Rolls to 丁丑 day, hour is 庚子."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": "23:45",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-024",
+      "category": "day-hour",
+      "description": "2026-01-03 00:30 Asia/Seoul (태양시 23:58, 丁丑일 단일 자시 庚子시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Civil Jan 3 00:30 is solar ~23:58. Day is 丁丑, hour is 庚子."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "00:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-025",
+      "category": "day-hour",
+      "description": "2026-01-03 01:25 Asia/Seoul (태양시 00:53, 자시 끝 무렵 丁丑일 庚子시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Solar ~00:53 is still Zi hour (< 01:00); hour is 庚子."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "01:25",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-026",
+      "category": "day-hour",
+      "description": "2026-01-03 01:40 Asia/Seoul (태양시 01:08, 축시 01:00-03:00 진입 丁丑일 辛丑시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Solar ~01:08 enters Chou hour (01:00-03:00); hour is 辛丑."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "01:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "丑",
+            "index": 37
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-027",
+      "category": "day-hour",
+      "description": "2026-01-03 03:40 Asia/Seoul (태양시 03:08, 인시 03:00-05:00 丁丑일 壬寅시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Yin hour 03:00-05:00; hour is 壬寅."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "03:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "寅",
+            "index": 38
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-028",
+      "category": "day-hour",
+      "description": "2026-01-03 05:40 Asia/Seoul (태양시 05:08, 묘시 05:00-07:00 丁丑일 癸卯시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Mao hour 05:00-07:00; hour is 癸卯."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "05:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "卯",
+            "index": 39
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-029",
+      "category": "day-hour",
+      "description": "2026-01-03 07:40 Asia/Seoul (태양시 07:08, 진시 07:00-09:00 丁丑일 甲辰시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Chen hour 07:00-09:00; hour is 甲辰."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "07:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "辰",
+            "index": 40
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-030",
+      "category": "day-hour",
+      "description": "2026-01-03 09:40 Asia/Seoul (태양시 09:08, 사시 09:00-11:00 丁丑일 乙巳시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Si hour 09:00-11:00; hour is 乙巳."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "09:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-031",
+      "category": "day-hour",
+      "description": "2026-01-03 11:40 Asia/Seoul (태양시 11:08, 오시 11:00-13:00 丁丑일 丙午시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Wu hour 11:00-13:00; hour is 丙午."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "11:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-032",
+      "category": "day-hour",
+      "description": "2026-01-03 13:40 Asia/Seoul (태양시 13:08, 미시 13:00-15:00 丁丑일 丁未시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Wei hour 13:00-15:00; hour is 丁未."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "13:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "未",
+            "index": 43
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-033",
+      "category": "day-hour",
+      "description": "2026-01-03 15:40 Asia/Seoul (태양시 15:08, 신시 15:00-17:00 丁丑일 戊申시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Shen hour 15:00-17:00; hour is 戊申."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "15:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "申",
+            "index": 44
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-034",
+      "category": "day-hour",
+      "description": "2026-01-03 17:40 Asia/Seoul (태양시 17:08, 유시 17:00-19:00 丁丑일 己酉시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "You hour 17:00-19:00; hour is 己酉."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "17:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-035",
+      "category": "day-hour",
+      "description": "2026-01-03 19:40 Asia/Seoul (태양시 19:08, 술시 19:00-21:00 丁丑일 庚戌시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Xu hour 19:00-21:00; hour is 庚戌."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "19:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "戌",
+            "index": 46
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-036",
+      "category": "day-hour",
+      "description": "2026-01-03 21:40 Asia/Seoul (태양시 21:08, 해시 21:00-23:00 丁丑일 辛亥시)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-03 丁丑"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Hai hour 21:00-23:00; hour is 辛亥."
+      },
+      "input": {
+        "birthDate": "2026-01-03",
+        "birthTime": "21:40",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "亥",
+            "index": 47
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-037",
+      "category": "day-hour",
+      "description": "2026-06-21 23:20 Asia/Seoul (하지 무렵 23:20 KST -> 태양시 22:49, 23:00 직전 해시)",
+      "source": {
+        "name": "CLASSICS-BAZI",
+        "locator": "Summer Solstice boundary"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "EoT in late June (~ -2m), lon offset (-32m) gives ~22:46 (< 23:00), remains current day."
+      },
+      "input": {
+        "birthDate": "2026-06-21",
+        "birthTime": "23:20",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-038",
+      "category": "day-hour",
+      "description": "2026-06-21 23:45 Asia/Seoul (하지 무렵 23:45 KST -> 태양시 23:11, 23:00 경과 다음날)",
+      "source": {
+        "name": "CLASSICS-BAZI",
+        "locator": "Summer Solstice boundary"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Solar time ~23:11 crosses boundary, rolls to next day."
+      },
+      "input": {
+        "birthDate": "2026-06-21",
+        "birthTime": "23:45",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "卯",
+            "index": 3
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-039",
+      "category": "day-hour",
+      "description": "2026-11-03 23:10 Asia/Seoul (균시차 최대 +16분 시기 -> 태양시 22:54, 23:00 직전)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "November EoT peak"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "EoT +16.4m, lon -32.1m -> net -15.7m. 23:10 becomes ~22:54 (< 23:00)."
+      },
+      "input": {
+        "birthDate": "2026-11-03",
+        "birthTime": "23:10",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "戌",
+            "index": 34
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-040",
+      "category": "day-hour",
+      "description": "2026-11-03 23:25 Asia/Seoul (균시차 최대 +16분 시기 -> 태양시 23:09, 23:00 경과 다음날)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "November EoT peak"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Net offset -15.7m. 23:25 becomes ~23:09 (> 23:00), rolls to next day."
+      },
+      "input": {
+        "birthDate": "2026-11-03",
+        "birthTime": "23:25",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "戌",
+            "index": 34
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-041",
+      "category": "jie",
+      "description": "2026 소한 직전 (2026-01-05 15:00 KST -> 戊子월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 소한"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 소한 instant -> month is 戊子."
+      },
+      "input": {
+        "birthDate": "2026-01-05",
+        "birthTime": "15:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "未",
+            "index": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-042",
+      "category": "jie",
+      "description": "2026 소한 직후 (2026-01-05 19:30 KST -> 己丑월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 소한"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 소한 instant -> month switches to 己丑."
+      },
+      "input": {
+        "birthDate": "2026-01-05",
+        "birthTime": "19:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "酉",
+            "index": 9
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-043",
+      "category": "jie",
+      "description": "2026 입춘 직전 (2026-02-04 03:00 KST -> 己丑월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입춘"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 입춘 instant -> month is 己丑."
+      },
+      "input": {
+        "birthDate": "2026-02-04",
+        "birthTime": "03:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "丑",
+            "index": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-044",
+      "category": "jie",
+      "description": "2026 입춘 직후 (2026-02-04 07:00 KST -> 庚寅월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입춘"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 입춘 instant -> month switches to 庚寅."
+      },
+      "input": {
+        "birthDate": "2026-02-04",
+        "birthTime": "07:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "卯",
+            "index": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-045",
+      "category": "jie",
+      "description": "2026 경칩 직전 (2026-03-05 20:30 KST -> 庚寅월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 경칩"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 경칩 instant -> month is 庚寅."
+      },
+      "input": {
+        "birthDate": "2026-03-05",
+        "birthTime": "20:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "寅",
+            "index": 14
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "戌",
+            "index": 58
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-046",
+      "category": "jie",
+      "description": "2026 경칩 직후 (2026-03-06 01:30 KST -> 辛卯월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 경칩"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 경칩 instant -> month switches to 辛卯."
+      },
+      "input": {
+        "birthDate": "2026-03-06",
+        "birthTime": "01:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "卯",
+            "index": 27
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-047",
+      "category": "jie",
+      "description": "2026 청명 직전 (2026-04-05 01:30 KST -> 辛卯월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 청명"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 청명 instant -> month is 辛卯."
+      },
+      "input": {
+        "birthDate": "2026-04-05",
+        "birthTime": "01:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "卯",
+            "index": 27
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-048",
+      "category": "jie",
+      "description": "2026 청명 직후 (2026-04-05 05:30 KST -> 壬辰월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 청명"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 청명 instant -> month switches to 壬辰."
+      },
+      "input": {
+        "birthDate": "2026-04-05",
+        "birthTime": "05:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "辰",
+            "index": 28
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-049",
+      "category": "jie",
+      "description": "2026 입하 직전 (2026-05-05 18:30 KST -> 壬辰월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입하"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 입하 instant -> month is 壬辰."
+      },
+      "input": {
+        "birthDate": "2026-05-05",
+        "birthTime": "18:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "辰",
+            "index": 28
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "酉",
+            "index": 9
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-050",
+      "category": "jie",
+      "description": "2026 입하 직후 (2026-05-05 22:30 KST -> 癸巳월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입하"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 입하 instant -> month switches to 癸巳."
+      },
+      "input": {
+        "birthDate": "2026-05-05",
+        "birthTime": "22:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "亥",
+            "index": 11
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-051",
+      "category": "jie",
+      "description": "2026 망종 직전 (2026-06-05 22:30 KST -> 癸巳월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 망종"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 망종 instant -> month is 癸巳."
+      },
+      "input": {
+        "birthDate": "2026-06-05",
+        "birthTime": "22:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "戌",
+            "index": 46
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "亥",
+            "index": 23
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-052",
+      "category": "jie",
+      "description": "2026 망종 직후 (2026-06-06 02:30 KST -> 甲午월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 망종"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 망종 instant -> month switches to 甲午."
+      },
+      "input": {
+        "birthDate": "2026-06-06",
+        "birthTime": "02:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "亥",
+            "index": 47
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-053",
+      "category": "jie",
+      "description": "2026 소서 직전 (2026-07-07 08:30 KST -> 甲午월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 소서"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 소서 instant -> month is 甲午."
+      },
+      "input": {
+        "birthDate": "2026-07-07",
+        "birthTime": "08:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "辰",
+            "index": 40
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-054",
+      "category": "jie",
+      "description": "2026 소서 직후 (2026-07-07 13:00 KST -> 乙未월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 소서"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 소서 instant -> month switches to 乙未."
+      },
+      "input": {
+        "birthDate": "2026-07-07",
+        "birthTime": "13:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "未",
+            "index": 31
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-055",
+      "category": "jie",
+      "description": "2026 입추 직전 (2026-08-07 18:30 KST -> 乙未월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입추"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 입추 instant -> month is 乙未."
+      },
+      "input": {
+        "birthDate": "2026-08-07",
+        "birthTime": "18:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "未",
+            "index": 31
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "丑",
+            "index": 49
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "酉",
+            "index": 57
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-056",
+      "category": "jie",
+      "description": "2026 입추 직후 (2026-08-07 22:30 KST -> 丙申월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입추"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 입추 instant -> month switches to 丙申."
+      },
+      "input": {
+        "birthDate": "2026-08-07",
+        "birthTime": "22:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "申",
+            "index": 32
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "丑",
+            "index": 49
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "亥",
+            "index": 59
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-057",
+      "category": "jie",
+      "description": "2026 백로 직전 (2026-09-07 21:00 KST -> 丙申월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 백로"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 백로 instant -> month is 丙申."
+      },
+      "input": {
+        "birthDate": "2026-09-07",
+        "birthTime": "21:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "申",
+            "index": 32
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "申",
+            "index": 20
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "戌",
+            "index": 10
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-058",
+      "category": "jie",
+      "description": "2026 백로 직후 (2026-09-08 01:30 KST -> 丁酉월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 백로"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 백로 instant -> month switches to 丁酉."
+      },
+      "input": {
+        "birthDate": "2026-09-08",
+        "birthTime": "01:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "酉",
+            "index": 33
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "酉",
+            "index": 21
+          }
+        },
+        "hour": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "丙",
+              "branch": "子",
+              "index": 12
+            },
+            {
+              "stem": "丁",
+              "branch": "丑",
+              "index": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ref-059",
+      "category": "jie",
+      "description": "2026 한로 직전 (2026-10-08 13:00 KST -> 丁酉월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 한로"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 한로 instant -> month is 丁酉."
+      },
+      "input": {
+        "birthDate": "2026-10-08",
+        "birthTime": "13:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "酉",
+            "index": 33
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-060",
+      "category": "jie",
+      "description": "2026 한로 직후 (2026-10-08 17:30 KST -> 戊戌월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 한로"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 한로 instant -> month switches to 戊戌."
+      },
+      "input": {
+        "birthDate": "2026-10-08",
+        "birthTime": "17:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "戌",
+            "index": 34
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "酉",
+            "index": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-061",
+      "category": "jie",
+      "description": "2026 입동 직전 (2026-11-07 16:30 KST -> 戊戌월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입동"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 입동 instant -> month is 戊戌."
+      },
+      "input": {
+        "birthDate": "2026-11-07",
+        "birthTime": "16:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "戌",
+            "index": 34
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "酉",
+            "index": 21
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "申",
+            "index": 20
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-062",
+      "category": "jie",
+      "description": "2026 입동 직후 (2026-11-07 21:00 KST -> 己亥월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 입동"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 입동 instant -> month switches to 己亥."
+      },
+      "input": {
+        "birthDate": "2026-11-07",
+        "birthTime": "21:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "酉",
+            "index": 21
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "戌",
+            "index": 22
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-063",
+      "category": "jie",
+      "description": "2026 대설 직전 (2026-12-07 09:30 KST -> 己亥월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 대설"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Before 대설 instant -> month is 己亥."
+      },
+      "input": {
+        "birthDate": "2026-12-07",
+        "birthTime": "09:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-064",
+      "category": "jie",
+      "description": "2026 대설 직후 (2026-12-07 14:00 KST -> 庚子월)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 대설"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "After 대설 instant -> month switches to 庚子."
+      },
+      "input": {
+        "birthDate": "2026-12-07",
+        "birthTime": "14:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "未",
+            "index": 19
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-065",
+      "category": "timezone-dst",
+      "description": "1900-01-01 12:00 Asia/Seoul (대한제국 LMT +08:27:52)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1900 LMT"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "LMT offset +08:27:52 applied."
+      },
+      "input": {
+        "birthDate": "1900-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "戌",
+            "index": 10
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-066",
+      "category": "timezone-dst",
+      "description": "1908-03-31 23:59 Asia/Seoul (1908 표준시 +08:30 전환 직전)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1908 transition"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Still on LMT +08:27:52."
+      },
+      "input": {
+        "birthDate": "1908-03-31",
+        "birthTime": "23:59",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "申",
+            "index": 44
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "戌",
+            "index": 22
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-067",
+      "category": "timezone-dst",
+      "description": "1908-04-01 12:00 Asia/Seoul (1908 표준시 +08:30 전환 직후)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1908 transition"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Switched to +08:30."
+      },
+      "input": {
+        "birthDate": "1908-04-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "申",
+            "index": 44
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "戌",
+            "index": 22
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-068",
+      "category": "timezone-dst",
+      "description": "1912-01-01 12:00 Asia/Seoul (1912 조선총독부 +09:00 전환)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1912 transition"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Switched to +09:00."
+      },
+      "input": {
+        "birthDate": "1912-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "亥",
+            "index": 47
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-069",
+      "category": "timezone-dst",
+      "description": "1954-03-21 12:00 Asia/Seoul (1954 대한민국 독자 표준시 +08:30 전환 직후)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1954 transition"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Switched back to +08:30."
+      },
+      "input": {
+        "birthDate": "1954-03-21",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "卯",
+            "index": 3
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-070",
+      "category": "timezone-dst",
+      "description": "1961-08-10 12:00 Asia/Seoul (1961 국가재건최고회의 +09:00 환원)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1961 transition"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Switched back to +09:00."
+      },
+      "input": {
+        "birthDate": "1961-08-10",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "丑",
+            "index": 37
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "申",
+            "index": 32
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "亥",
+            "index": 11
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-071",
+      "category": "timezone-dst",
+      "description": "1987-05-15 12:00 Asia/Seoul (1987 대한민국 서머타임 +10:00 기간)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1987 DST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "1 hour DST subtracted."
+      },
+      "input": {
+        "birthDate": "1987-05-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "卯",
+            "index": 3
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "巳",
+            "index": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-072",
+      "category": "timezone-dst",
+      "description": "1988-08-15 23:45 Asia/Seoul (1988 올림픽 서머타임 -> 진태양시 해시 유지)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb ROK 1988 DST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "DST 60m subtracted, gives solar 22:09 Hai hour."
+      },
+      "input": {
+        "birthDate": "1988-08-15",
+        "birthTime": "23:45",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "辰",
+            "index": 4
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "申",
+            "index": 56
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "寅",
+            "index": 38
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "亥",
+            "index": 47
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-073",
+      "category": "timezone-dst",
+      "description": "2026-07-01 12:00 America/New_York (뉴욕 EDT UTC-4 하계)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb northamerica EDT"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "EDT UTC-4 offset applied with NY lon -74.00."
+      },
+      "input": {
+        "birthDate": "2026-07-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "America/New_York",
+        "longitude": -74.006,
+        "latitude": 40.7128
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "癸",
+              "branch": "巳",
+              "index": 29
+            },
+            {
+              "stem": "甲",
+              "branch": "午",
+              "index": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ref-074",
+      "category": "timezone-dst",
+      "description": "2026-01-15 12:00 America/New_York (뉴욕 EST UTC-5 동계)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb northamerica EST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "EST UTC-5 offset applied."
+      },
+      "input": {
+        "birthDate": "2026-01-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "America/New_York",
+        "longitude": -74.006,
+        "latitude": 40.7128
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-075",
+      "category": "timezone-dst",
+      "description": "2026-07-01 12:00 Europe/London (런던 BST UTC+1 하계 서머타임)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb europe BST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "BST UTC+1 offset applied."
+      },
+      "input": {
+        "birthDate": "2026-07-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Europe/London",
+        "longitude": -0.1278,
+        "latitude": 51.5074
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-076",
+      "category": "timezone-dst",
+      "description": "2026-01-15 12:00 Europe/London (런던 GMT UTC+0 동계 표준시)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb europe GMT"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "GMT UTC+0 offset applied."
+      },
+      "input": {
+        "birthDate": "2026-01-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Europe/London",
+        "longitude": -0.1278,
+        "latitude": 51.5074
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-077",
+      "category": "timezone-dst",
+      "description": "2026-05-15 12:00 Asia/Tokyo (도쿄 JST UTC+9, 경도 139.69도)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb asia JST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Tokyo lon 139.69 gives solar time +18m ahead of JST."
+      },
+      "input": {
+        "birthDate": "2026-05-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Tokyo",
+        "longitude": 139.69,
+        "latitude": 35.689
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-078",
+      "category": "timezone-dst",
+      "description": "2026-05-15 12:00 Asia/Kathmandu (카트만두 특수 시차 UTC+05:45)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb asia NPT"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "+05:45 fractional hour offset applied."
+      },
+      "input": {
+        "birthDate": "2026-05-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Kathmandu",
+        "longitude": 85.324,
+        "latitude": 27.717
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-079",
+      "category": "timezone-dst",
+      "description": "2026-05-15 12:00 Australia/Eucla (오스트레일리아 유클라 특수 시차 UTC+08:45)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb australasia ACWST"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "+08:45 fractional hour offset applied."
+      },
+      "input": {
+        "birthDate": "2026-05-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Australia/Eucla",
+        "longitude": 128.88,
+        "latitude": -31.67
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "巳",
+            "index": 29
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-080",
+      "category": "timezone-dst",
+      "description": "2026-01-15 12:00 Australia/Lord_Howe (로드하우 특수 30분 서머타임 UTC+11:00)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "tzdb australasia Lord Howe"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Lord Howe 30-min DST offset applied."
+      },
+      "input": {
+        "birthDate": "2026-01-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Australia/Lord_Howe",
+        "longitude": 159.08,
+        "latitude": -31.55
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "丑",
+            "index": 25
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-081",
+      "category": "lunar",
+      "description": "2023-02-01 음력 평달 (양력 2023-02-20 대응)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2023 lunar month 2"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2023-02-20."
+      },
+      "input": {
+        "birthDate": "2023-02-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "卯",
+            "index": 39
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "寅",
+            "index": 50
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-082",
+      "category": "lunar",
+      "description": "2023-02-01 음력 윤달 (양력 2023-03-22 대응)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2023 lunar leap month 2"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2023-03-22."
+      },
+      "input": {
+        "birthDate": "2023-02-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": true,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "癸",
+            "branch": "卯",
+            "index": 39
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "卯",
+            "index": 51
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-083",
+      "category": "lunar",
+      "description": "2026-01-01 음력 설날 (양력 2026-02-17 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 설날"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-02-17 (after Lichun)."
+      },
+      "input": {
+        "birthDate": "2026-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "戌",
+            "index": 58
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-084",
+      "category": "lunar",
+      "description": "2026-01-15 음력 정월대보름 (양력 2026-03-03 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 대보름"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-03-03."
+      },
+      "input": {
+        "birthDate": "2026-01-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-085",
+      "category": "lunar",
+      "description": "2026-05-05 음력 단오 (양력 2026-06-19 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 단오"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-06-19."
+      },
+      "input": {
+        "birthDate": "2026-05-05",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "子",
+            "index": 0
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-086",
+      "category": "lunar",
+      "description": "2026-07-07 음력 칠석 (양력 2026-08-19 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 칠석"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-08-19."
+      },
+      "input": {
+        "birthDate": "2026-07-07",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "申",
+            "index": 32
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "丑",
+            "index": 1
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "午",
+            "index": 18
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-087",
+      "category": "lunar",
+      "description": "2026-08-15 음력 추석 (양력 2026-09-25 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 추석"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-09-25."
+      },
+      "input": {
+        "birthDate": "2026-08-15",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "酉",
+            "index": 33
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "寅",
+            "index": 38
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-088",
+      "category": "lunar",
+      "description": "1900-01-01 음력 (양력 1900-01-31 KASI 역사 음력)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "1900 역사 음력"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Historical Korean lunar calendar converted to solar 1900-01-31."
+      },
+      "input": {
+        "birthDate": "1900-01-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "亥",
+            "index": 35
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "丑",
+            "index": 13
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "辰",
+            "index": 40
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "午",
+            "index": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-089",
+      "category": "lunar",
+      "description": "1900-05-01 음력 (양력 1900-05-28 KASI 역사 음력)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "1900 역사 음력"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 1900-05-28."
+      },
+      "input": {
+        "birthDate": "1900-05-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "丑",
+            "index": 37
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-090",
+      "category": "lunar",
+      "description": "2020-04-01 음력 윤달 (양력 2020-05-23 대응)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2020 윤4월"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2020-05-23."
+      },
+      "input": {
+        "birthDate": "2020-04-01",
+        "birthTime": "12:00",
+        "timeAccuracy": "exact",
+        "calendarType": "lunar",
+        "isLeapMonth": true,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "子",
+            "index": 36
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "巳",
+            "index": 17
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-091",
+      "category": "uncertainty",
+      "description": "2026-01-02 시간 미상 서울 (일계 경계 걸침 -> 일주 ambiguous [丙子, 丁丑], 시주 unavailable)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Unknown time across civil day reaches next day after 23:00 solar."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": null,
+        "timeAccuracy": "unknown",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "丙",
+              "branch": "子",
+              "index": 12
+            },
+            {
+              "stem": "丁",
+              "branch": "丑",
+              "index": 13
+            }
+          ]
+        },
+        "hour": {
+          "status": "unavailable",
+          "reason": "Birth time is unknown."
+        }
+      }
+    },
+    {
+      "id": "ref-092",
+      "category": "uncertainty",
+      "description": "2026-01-02 12:00 추정 시각 서울 (대표 시각 계산 및 limitations 보존)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-01-02"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Representative instant computed; notes limitation."
+      },
+      "input": {
+        "birthDate": "2026-01-02",
+        "birthTime": "12:00",
+        "timeAccuracy": "approximate",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "乙",
+            "branch": "巳",
+            "index": 41
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "子",
+            "index": 24
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "子",
+            "index": 12
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "午",
+            "index": 30
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-093",
+      "category": "uncertainty",
+      "description": "2026-03-01 시간 미상 UTC (lon 0, 일진 경계 걸침 -> 일주 ambiguous [甲戌, 乙亥])",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-03-01"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Unknown time splits at 23:00 solar boundary."
+      },
+      "input": {
+        "birthDate": "2026-03-01",
+        "birthTime": null,
+        "timeAccuracy": "unknown",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "甲",
+              "branch": "戌",
+              "index": 10
+            },
+            {
+              "stem": "乙",
+              "branch": "亥",
+              "index": 11
+            }
+          ]
+        },
+        "hour": {
+          "status": "unavailable",
+          "reason": "Birth time is unknown."
+        }
+      }
+    },
+    {
+      "id": "ref-094",
+      "category": "uncertainty",
+      "description": "2026-03-01 10:00 추정 시각 UTC (대표 시각 계산 및 limitations 보존)",
+      "source": {
+        "name": "HKO-ALMANAC-2026",
+        "locator": "2026-03-01"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Representative instant computed."
+      },
+      "input": {
+        "birthDate": "2026-03-01",
+        "birthTime": "10:00",
+        "timeAccuracy": "approximate",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Etc/UTC",
+        "longitude": 0,
+        "latitude": 51.48
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "甲",
+            "branch": "戌",
+            "index": 10
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "巳",
+            "index": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-095",
+      "category": "uncertainty",
+      "description": "2026-02-04 시간 미상 서울 (입춘 당일 시간 미상 -> 연주/월주/일주 모두 복수 후보)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 Lichun"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Crosses Lichun during the day -> year/month ambiguous."
+      },
+      "input": {
+        "birthDate": "2026-02-04",
+        "birthTime": null,
+        "timeAccuracy": "unknown",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "乙",
+              "branch": "巳",
+              "index": 41
+            },
+            {
+              "stem": "丙",
+              "branch": "午",
+              "index": 42
+            }
+          ]
+        },
+        "month": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "己",
+              "branch": "丑",
+              "index": 25
+            },
+            {
+              "stem": "庚",
+              "branch": "寅",
+              "index": 26
+            }
+          ]
+        },
+        "day": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "己",
+              "branch": "酉",
+              "index": 45
+            },
+            {
+              "stem": "庚",
+              "branch": "戌",
+              "index": 46
+            }
+          ]
+        },
+        "hour": {
+          "status": "unavailable",
+          "reason": "Birth time is unknown."
+        }
+      }
+    },
+    {
+      "id": "ref-096",
+      "category": "uncertainty",
+      "description": "2026-02-04 05:00 추정 시각 서울 (입춘 부근 추정 시각)",
+      "source": {
+        "name": "NAOJ-KOYOMI",
+        "locator": "2026 Lichun"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Representative instant computed near Lichun."
+      },
+      "input": {
+        "birthDate": "2026-02-04",
+        "birthTime": "05:00",
+        "timeAccuracy": "approximate",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "乙",
+              "branch": "巳",
+              "index": 41
+            },
+            {
+              "stem": "丙",
+              "branch": "午",
+              "index": 42
+            }
+          ]
+        },
+        "month": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "己",
+              "branch": "丑",
+              "index": 25
+            },
+            {
+              "stem": "庚",
+              "branch": "寅",
+              "index": 26
+            }
+          ]
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "酉",
+            "index": 45
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "寅",
+            "index": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-097",
+      "category": "uncertainty",
+      "description": "1988-10-09 02:30 Asia/Seoul (1988 서머타임 종료일 overlap 구간, 복수 후보 보존)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "1988 ROK DST overlap"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Overlap yields multiple normalized instant candidates."
+      },
+      "input": {
+        "birthDate": "1988-10-09",
+        "birthTime": "02:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "complete",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "辰",
+            "index": 4
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "壬",
+            "branch": "戌",
+            "index": 58
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "酉",
+            "index": 33
+          }
+        },
+        "hour": {
+          "status": "confirmed",
+          "value": {
+            "stem": "辛",
+            "branch": "丑",
+            "index": 37
+          }
+        }
+      }
+    },
+    {
+      "id": "ref-098",
+      "category": "uncertainty",
+      "description": "2026-11-01 01:30 America/New_York (뉴욕 DST 종료일 01:00-02:00 overlap)",
+      "source": {
+        "name": "IANA-TZDB-2025B",
+        "locator": "US DST fall back"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Multiple instant candidates preserved for overlap."
+      },
+      "input": {
+        "birthDate": "2026-11-01",
+        "birthTime": "01:30",
+        "timeAccuracy": "exact",
+        "calendarType": "solar",
+        "isLeapMonth": false,
+        "timezoneId": "America/New_York",
+        "longitude": -74.006,
+        "latitude": 40.7128
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "戊",
+            "branch": "戌",
+            "index": 34
+          }
+        },
+        "day": {
+          "status": "confirmed",
+          "value": {
+            "stem": "己",
+            "branch": "卯",
+            "index": 15
+          }
+        },
+        "hour": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "甲",
+              "branch": "子",
+              "index": 0
+            },
+            {
+              "stem": "乙",
+              "branch": "丑",
+              "index": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ref-099",
+      "category": "uncertainty",
+      "description": "2026-01-01 음력 시간 미상 서울 (음력 설날 시간 미상)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 설날"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-02-17, hour unavailable."
+      },
+      "input": {
+        "birthDate": "2026-01-01",
+        "birthTime": null,
+        "timeAccuracy": "unknown",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "庚",
+            "branch": "寅",
+            "index": 26
+          }
+        },
+        "day": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "壬",
+              "branch": "戌",
+              "index": 58
+            },
+            {
+              "stem": "癸",
+              "branch": "亥",
+              "index": 59
+            }
+          ]
+        },
+        "hour": {
+          "status": "unavailable",
+          "reason": "Birth time is unknown."
+        }
+      }
+    },
+    {
+      "id": "ref-100",
+      "category": "uncertainty",
+      "description": "2026-08-15 음력 시간 미상 서울 (음력 추석 시간 미상)",
+      "source": {
+        "name": "KASI-ALMANAC",
+        "locator": "2026 추석"
+      },
+      "policy": {
+        "appliedPolicy": "mylife-standard-v1",
+        "differencesWithSource": "Converted to solar 2026-09-25, hour unavailable."
+      },
+      "input": {
+        "birthDate": "2026-08-15",
+        "birthTime": null,
+        "timeAccuracy": "unknown",
+        "calendarType": "lunar",
+        "isLeapMonth": false,
+        "timezoneId": "Asia/Seoul",
+        "longitude": 126.98,
+        "latitude": 37.57
+      },
+      "expected": {
+        "completeness": "partial",
+        "year": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丙",
+            "branch": "午",
+            "index": 42
+          }
+        },
+        "month": {
+          "status": "confirmed",
+          "value": {
+            "stem": "丁",
+            "branch": "酉",
+            "index": 33
+          }
+        },
+        "day": {
+          "status": "ambiguous",
+          "candidates": [
+            {
+              "stem": "壬",
+              "branch": "寅",
+              "index": 38
+            },
+            {
+              "stem": "癸",
+              "branch": "卯",
+              "index": 39
+            }
+          ]
+        },
+        "hour": {
+          "status": "unavailable",
+          "reason": "Birth time is unknown."
+        }
+      }
+    }
+  ]
+}

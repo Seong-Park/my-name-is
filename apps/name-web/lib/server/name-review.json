@@ -1,0 +1,21 @@
+{
+  "version": "editorial-2026-10-01-v1",
+  "reviewer": "Codex AI editorial review",
+  "scope": "두 음절의 이름으로 읽을 때의 어감 검토. 통계·전문가 검증이 아니며 태그는 실제 성별이 아닌 편집상 인상이다. 미등재 이름은 미검토이며 제외하지 않는다.",
+  "names": [
+    {"name":"현욱","moods":["masculine"]},
+    {"name":"욱현","moods":["masculine"]},
+    {"name":"동현","moods":["masculine","neutral"]},
+    {"name":"송림","moods":["neutral"]},
+    {"name":"해림","moods":["feminine","neutral"]},
+    {"name":"은해","moods":["feminine","neutral"]},
+    {"name":"해은","moods":["feminine"]},
+    {"name":"은송","moods":["feminine","neutral"]},
+    {"name":"송은","moods":["feminine","neutral"]},
+    {"name":"해동","moods":["masculine"]},
+    {"name":"동해","moods":["masculine","neutral"]}
+  ],
+  "excludeGiven": ["강간", "살인"],
+  "excludeFull": [],
+  "exclusionRationale": "명확한 폭력 행위 명칭과 이름 부분이 정확히 일치하는 경우만 제외한다. 현재 이름 평가에는 사용하지 않는다. 전체 이름 제외 사례는 아직 수록하지 않았다."
+}

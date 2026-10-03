@@ -1,0 +1,1229 @@
+{
+  "version": "2026-09-30.research-2",
+  "reviewer": "Codex research agent (AI; 전문가 검증 아님)",
+  "review_date": "2026-09-30",
+  "status": "partial_field_verification_not_production_dictionary",
+  "target_unique_characters": 200,
+  "reviewed_unique_characters": 21,
+  "rows": [
+    {
+      "character": "林",
+      "reading": "림",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "림",
+        "result_count": 10,
+        "locator": "1행2열 林",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "나무가 모여 자란 숲.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20787",
+        "locator": "A01881 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "평지에 나무가 무리 지어 자람을 풀이한다."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://ww2.kangxizidian.com/v2/index.php?page=2467&sword=%E6%9E%97",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          516,
+          5
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "林",
+      "reading": "임",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "임",
+        "result_count": 28,
+        "locator": "1행8열 林",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "나무가 모여 자란 숲.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20787",
+        "locator": "A01881 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "림 독음의 두음형; 법원 임 검색에서도 자형 육안 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://ww2.kangxizidian.com/v2/index.php?page=2467&sword=%E6%9E%97",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          516,
+          5
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "森",
+      "reading": "삼",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "삼",
+        "result_count": 13,
+        "locator": "1행4열 森",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "나무가 빽빽하게 자란 모습.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21425",
+        "locator": "A01960 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "나무가 많다는 뜻과 세 木의 구성을 함께 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 12,
+        "observed_modern_total": 12,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%A3%AE",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          534,
+          11
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "松",
+      "reading": "송",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "송",
+        "result_count": 14,
+        "locator": "1행6열 松",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "소나무를 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A01886",
+        "locator": "A01886 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "식물 종을 뜻하는 본의를 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%9D%BE",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          514,
+          11
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "柏",
+      "reading": "백",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "백",
+        "result_count": 12,
+        "locator": "1행5열 柏",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "측백나무류의 늘푸른 나무.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20944",
+        "locator": "A01907 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "식물 총칭 의미 확인; 세부 종 동일성 확대 안 함."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 9,
+        "observed_modern_total": 9,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%9F%8F",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          518,
+          22
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "桐",
+      "reading": "동",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "동",
+        "result_count": 51,
+        "locator": "桐 3행4열; 銅 아래 스크롤 3행9열",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "오동·벽오동류를 가리키는 나무 이름.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=21107",
+        "locator": "A01925 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WOOD",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "식물명과 梧桐 설명 확인; 한국 식물종 하나로 단정 안 함."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 10,
+        "observed_modern_total": 10,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%A1%90",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集中",
+        "tongwen": [
+          525,
+          17
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "泉",
+      "reading": "천",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "천",
+        "result_count": 39,
+        "locator": "2행1열 泉",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "물이 솟아 나오는 샘.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23659",
+        "locator": "A02183 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WATER",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "수원과 지하수라는 실제 물의 의미."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 9,
+        "observed_modern_total": 9,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%B3%89",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集上",
+        "tongwen": [
+          615,
+          12
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "江",
+      "reading": "강",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "강",
+        "result_count": 57,
+        "locator": "3행5열 江",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "큰 강을 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23349",
+        "locator": "A02133 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WATER",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "장강 고유명 및 물줄기 의미."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 7,
+        "observed_modern_total": 6,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%B1%9F",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集上",
+        "tongwen": [
+          606,
+          4
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "海",
+      "reading": "해",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "해",
+        "result_count": 47,
+        "locator": "2행9열 海",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "바다를 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23865",
+        "locator": "A02205 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "WATER",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "바다 수역 의미."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 11,
+        "observed_modern_total": 10,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%B5%B7",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集上",
+        "tongwen": [
+          625,
+          14
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "炎",
+      "reading": "염",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "염",
+        "result_count": 34,
+        "locator": "2행9열 炎",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "불꽃이 위로 타오르는 모습.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25583",
+        "locator": "A02390 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "FIRE",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "화광 상승·불타다 의미; 과열/염증 뜻도 함께 알려야 함."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://www.kangxizidian.com/kxhans/%E7%82%8E",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集中",
+        "tongwen": [
+          667,
+          13
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "excluded_initial_recommendation",
+        "reason": "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      ]
+    },
+    {
+      "character": "炎",
+      "reading": "담",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "담",
+        "result_count": 37,
+        "locator": "3행1열 炎",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "불꽃이 위로 타오르는 모습.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25583",
+        "locator": "A02390 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "FIRE",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "법원 담 검색 자형 육안 확인. 중국어 사전 뜻과 해당 한국어 독음의 세부 뜻 연결은 미확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://www.kangxizidian.com/kxhans/%E7%82%8E",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集中",
+        "tongwen": [
+          667,
+          13
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "excluded_initial_recommendation",
+        "reason": "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      ]
+    },
+    {
+      "character": "炫",
+      "reading": "현",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "현",
+        "result_count": 55,
+        "locator": "3행4열 炫",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "빛이 밝게 빛나는 모습.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25645",
+        "locator": "A02394 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "FIRE",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "說文 火部의 빛 설명과 불빛 용례 검토; 자체 화 분류."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 9,
+        "observed_modern_total": 9,
+        "source": "https://www.kangxizidian.com/search/index_v.php?detail=y&stype=Word&sword=%E7%82%AB",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集中",
+        "tongwen": [
+          668,
+          19
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "煜",
+      "reading": "욱",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "욱",
+        "result_count": 12,
+        "locator": "1행4열 昱, 1행6열 煜",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "환하게 비추는 빛 또는 불꽃.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26071",
+        "locator": "A02425 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "FIRE",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "照耀와 火焰 뜻을 함께 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 13,
+        "observed_modern_total": 13,
+        "source": "https://www.kangxizidian.com/kxhans/%E7%85%9C",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集中",
+        "tongwen": [
+          677,
+          15
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "煥",
+      "reading": "환",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "환",
+        "result_count": 41,
+        "locator": "3행1열 煥",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "불빛처럼 환하게 빛나는 모습.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A02429",
+        "locator": "A02429 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "FIRE",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "說文 신부의 火光 풀이 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 13,
+        "observed_modern_total": 13,
+        "source": "https://www.kangxizidian.com/kxhans/%E7%85%A5",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集中",
+        "tongwen": [
+          677,
+          33
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "土",
+      "reading": "토",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "토",
+        "result_count": 5,
+        "locator": "1행4열 土",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "흙과 땅을 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7587",
+        "locator": "A00740 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "EARTH",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "땅에서 만물이 나옴이라는 풀이 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 3,
+        "observed_modern_total": 3,
+        "source": "https://www.kangxizidian.com/kxhans/%E5%9C%9F",
+        "source_name": "康熙字典網上版",
+        "volume": "丑集中",
+        "tongwen": [
+          223,
+          1
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "excluded_initial_recommendation",
+        "reason": "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "土의 거친 어감 또는 炎의 과열·염증 의미로 초기 추천 제외하는 편집 판단; 법적 금지 아님"
+      ]
+    },
+    {
+      "character": "坤",
+      "reading": "곤",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "곤",
+        "result_count": 26,
+        "locator": "1행3열 坤",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "땅을 상징하는 곤괘.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A00762",
+        "locator": "A00762 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "EARTH",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "地와 易 괘 설명 확인; 여성 운명 해석은 채택 안 함."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://www.kangxizidian.com/kxhans/%E5%9D%A4",
+        "source_name": "康熙字典網上版",
+        "volume": "丑集中",
+        "tongwen": [
+          226,
+          14
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "岳",
+      "reading": "악",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "악",
+        "result_count": 24,
+        "locator": "1행6열 岳",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "높고 큰 산을 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=12195",
+        "locator": "A01112 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "EARTH",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "오악과 높은 산 자형 설명 확인; 산→토는 자체정책."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://www.kangxizidian.com/kxhans/%E5%B2%B3",
+        "source_name": "康熙字典網上版",
+        "volume": "寅集中",
+        "tongwen": [
+          309,
+          31
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "金",
+      "reading": "금",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "금",
+        "result_count": 25,
+        "locator": "3행2열 金; 상세 금,김",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "금 또는 금속을 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A04261",
+        "locator": "A04261 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "METAL",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "금속 총칭·금 원소 의미 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://kangxizidian.com/kxhans/%E9%87%91",
+        "source_name": "康熙字典網上版",
+        "volume": "戌集上",
+        "tongwen": [
+          1295,
+          1
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "金",
+      "reading": "김",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "금",
+        "result_count": 25,
+        "locator": "금 검색 金 상세 금,김",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "reading_specific_meaning_unverified",
+        "text": null,
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A04261",
+        "locator": "A04261 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "withheld",
+        "value": null,
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "김은 성씨 독음이다. 중국어 金의 금속 뜻을 성씨 김의 뜻으로 대체하지 않음."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 8,
+        "observed_modern_total": 8,
+        "source": "https://kangxizidian.com/kxhans/%E9%87%91",
+        "source_name": "康熙字典網上版",
+        "volume": "戌集上",
+        "tongwen": [
+          1295,
+          1
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "withheld",
+        "reason": "뜻–독음 또는 단일 오행 배속 보류"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "이 독음의 직접 뜻 미확정",
+        "자원오행 판정 보류",
+        "뜻–독음 또는 단일 오행 배속 보류"
+      ]
+    },
+    {
+      "character": "鈺",
+      "reading": "옥",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "옥",
+        "result_count": 6,
+        "locator": "1행5열 鈺",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "단단한 금속 또는 귀한 보물.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=73726",
+        "locator": "B05303 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "METAL",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "玉篇의 단단한 금속과 보물 뜻 함께 확인; 옥돌로 오인하지 않음."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 13,
+        "observed_modern_total": 13,
+        "source": "https://www.kangxizidian.com/kxhans/%E9%88%BA",
+        "source_name": "康熙字典網上版",
+        "volume": "戌集上",
+        "tongwen": [
+          1300,
+          2
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "銀",
+      "reading": "은",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "은",
+        "result_count": 43,
+        "locator": "4행4열 銀",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "은이라는 금속.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47166",
+        "locator": "A04290 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "METAL",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "은 원소·白金 고전 뜻 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 14,
+        "observed_modern_total": 14,
+        "source": "https://www.kangxizidian.com/kxhans/%E9%8A%80",
+        "source_name": "康熙字典網上版",
+        "volume": "戌集上",
+        "tongwen": [
+          1303,
+          25
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "銅",
+      "reading": "동",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "동",
+        "result_count": 51,
+        "locator": "桐 3행4열; 銅 아래 스크롤 3행9열",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "구리라는 금속.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=47178",
+        "locator": "A04291 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "reviewed_service_interpretation",
+        "value": "METAL",
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "구리 원소·赤金 고전 뜻 확인."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 14,
+        "observed_modern_total": 14,
+        "source": "https://www.kangxizidian.com/kxhans/%E9%8A%85",
+        "source_name": "康熙字典網上版",
+        "volume": "戌集上",
+        "tongwen": [
+          1304,
+          5
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "character_semantics_reviewed",
+        "reason": "직접 작성 뜻·물질 의미 검토; 실제 이름 조합·정확히 일치하는 제외 규칙 미검토"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "永",
+      "reading": "영",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "영",
+        "result_count": 114,
+        "locator": "중간 스크롤 3행5열 永",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "오래 이어지고 길다는 뜻.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=23293",
+        "locator": "A02125 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "withheld",
+        "value": null,
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "물의 긴 흐름을 그린 자형이지만 현재 주된 뜻은 지속성. 부수만으로 수 배속 안 함."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 5,
+        "observed_modern_total": 5,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%B0%B8",
+        "source_name": "康熙字典網上版",
+        "volume": "巳集上",
+        "tongwen": [
+          603,
+          4
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "withheld",
+        "reason": "뜻–독음 또는 단일 오행 배속 보류"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "자원오행 판정 보류",
+        "뜻–독음 또는 단일 오행 배속 보류"
+      ]
+    },
+    {
+      "character": "昱",
+      "reading": "욱",
+      "official": {
+        "status": "verified_live_visual",
+        "source": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+        "checked_at": "2026-09-30",
+        "query": "욱",
+        "result_count": 12,
+        "locator": "1행4열 昱, 1행6열 煜",
+        "method": "검색어·검색결과 자형 스크린샷 육안 대조",
+        "machine_codepoint_verified": false,
+        "limitation": "PUA 글꼴; 공식 Unicode 원본 추출·시행본 해시 미확보"
+      },
+      "meaning": {
+        "status": "source_entry_checked",
+        "text": "밝게 빛나거나 다음 날을 가리킨다.",
+        "source": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=B01541",
+        "locator": "B01541 正字 / 說文釋形 / 釋義",
+        "korean_reading_link": "unverified"
+      },
+      "element": {
+        "status": "withheld",
+        "value": null,
+        "policy": "semantic-material-v1",
+        "traditional_naming_classification_verified": false,
+        "rationale": "대서본 明日과 단주본 日明 차이. 햇빛→화 확대를 채택하지 않아 보류."
+      },
+      "strokes": {
+        "status": "source_entry_checked_under_adopted_policy",
+        "policy": "kangxi-tongwen-entry-v1",
+        "original": 9,
+        "observed_modern_total": 9,
+        "source": "https://www.kangxizidian.com/kxhans/%E6%98%B1",
+        "source_name": "康熙字典網上版",
+        "volume": "辰集上",
+        "tongwen": [
+          494,
+          3
+        ],
+        "scan_visually_verified": false,
+        "note": "康熙字典網上版 전사 표제의 康熙 총획. 원판 시각 대조 아님."
+      },
+      "suitability": {
+        "status": "withheld",
+        "reason": "뜻–독음 또는 단일 오행 배속 보류"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "자원오행 판정 보류",
+        "뜻–독음 또는 단일 오행 배속 보류"
+      ]
+    }
+  ],
+  "official_visually_verified_pairs": 24,
+  "official_machine_codepoint_verified_pairs": 0,
+  "eligibility_scope_note": "true는 연구 단계의 글자 후보 자격이며 출시·배포권 또는 이름 조합 자격을 보증하지 않는다. 공식독음과 뜻은 별도 필드다."
+}

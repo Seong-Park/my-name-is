@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "verify:research": "python scripts/verify-name-research.py",
+    "test": "pnpm --filter @mylife/bazi-domain test:types && pnpm --filter @mylife/bazi-rules test && pnpm --filter @mylife/bazi-engine test",
+    "check:calendar": "tsx scripts/verify-name-support-calendar.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "korean-lunar-calendar": "0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "tsx": "^4.7.2"
+  },
+  "name": "my-name-is",
+  "packageManager": "pnpm@9.0.0"
+}

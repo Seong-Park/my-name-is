@@ -1,0 +1,63 @@
+{
+  "source": "2026-10-03-winter-wood-boundary.md",
+  "results": [
+    {
+      "kind": "source_example",
+      "expected": [
+        "庚寅",
+        "戊子",
+        "甲寅",
+        "丙寅"
+      ],
+      "years": [
+        1950,
+        2010
+      ],
+      "matches": [
+        {
+          "birthDate": "2010-12-30",
+          "birthTime": "04:00",
+          "pillars": [
+            "庚寅",
+            "戊子",
+            "甲寅",
+            "丙寅"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "source_based_service_inference",
+      "expected": [
+        "戊寅",
+        "甲子",
+        "甲寅",
+        "丙寅"
+      ],
+      "years": [
+        1938,
+        1998
+      ],
+      "matches": [
+        {
+          "birthDate": "1999-01-02",
+          "birthTime": "04:00",
+          "pillars": [
+            "戊寅",
+            "甲子",
+            "甲寅",
+            "丙寅"
+          ]
+        }
+      ]
+    }
+  ],
+  "versions": {
+    "engineVersion": "bazi-engine-calendar-v1",
+    "rulesetVersion": "mylife-standard-v1",
+    "calendarVersion": "astronomy-engine@2.1.19/ut-as-utc/espenak-meeus/v1",
+    "timezoneVersion": "moment-timezone@0.6.0/moment@2.31.0/tzdb@2025b",
+    "lunarCalendarVersion": "korean-lunar-calendar@0.4.0"
+  },
+  "limitation": "Calendar regression data only, not historical birth data, a browser demo profile, or evidence of life outcomes."
+}

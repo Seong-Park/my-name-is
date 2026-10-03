@@ -1,0 +1,11 @@
+{
+  "policy": "kangxi-tongwen-entry-v1",
+  "status": "kangxi_transcription_entry_checked",
+  "reviewer": "Codex AI; 웹 전사 표제자 메타데이터 직접 대조. 스캔 교감·효능 검증 아님",
+  "checked_at": "2026-10-03",
+  "scope": "원획만 추가. 한국 독음별 뜻·자원오행·추천 적격·현행 법원 목록 검증을 추가한 것이 아님",
+  "rows": [
+    {"character":"憐","unicode":"U+6190","kangxi_total":16,"radical":"心","radical_strokes":4,"outside_strokes":12,"volume":"卯集上","tongwen":[402,12],"wuying":[1918,6],"source":"https://www.kangxizidian.com/kxhans/%E6%86%90"},
+    {"character":"宇","unicode":"U+5B87","kangxi_total":6,"radical":"宀","radical_strokes":3,"outside_strokes":3,"volume":"寅集上","tongwen":[282,2],"wuying":[1332,3],"source":"https://www.kangxizidian.com/kxhans/%E5%AE%87"}
+  ]
+}
