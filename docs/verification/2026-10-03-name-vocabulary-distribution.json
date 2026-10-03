@@ -1,0 +1,307 @@
+{
+  "scope": "한자 어휘만의 조건부 분포 진단. 두 유형의 목표가 같다고 가정해 중복 제거 이후를 확인한다. 실제 명리 제공률·추천 품질·분위기 검증을 뜻하지 않는다.",
+  "hanjaVersion": "c03ce85b6e585544",
+  "nameReviewVersion": "18dcd4f2a63bb7ca",
+  "rows": [
+    {
+      "target": "WOOD",
+      "mood": "any",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": null
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      }
+    },
+    {
+      "target": "WOOD",
+      "mood": "masculine",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "WOOD",
+      "mood": "feminine",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "WOOD",
+      "mood": "neutral",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 1
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "FIRE",
+      "mood": "any",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": null
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      }
+    },
+    {
+      "target": "FIRE",
+      "mood": "masculine",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 1
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "FIRE",
+      "mood": "feminine",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "FIRE",
+      "mood": "neutral",
+      "eligibleReadings": 6,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 1,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "EARTH",
+      "mood": "any",
+      "eligibleReadings": 5,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      }
+    },
+    {
+      "target": "EARTH",
+      "mood": "masculine",
+      "eligibleReadings": 5,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "EARTH",
+      "mood": "feminine",
+      "eligibleReadings": 5,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "EARTH",
+      "mood": "neutral",
+      "eligibleReadings": 5,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "METAL",
+      "mood": "any",
+      "eligibleReadings": 4,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      }
+    },
+    {
+      "target": "METAL",
+      "mood": "masculine",
+      "eligibleReadings": 4,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "METAL",
+      "mood": "feminine",
+      "eligibleReadings": 4,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "METAL",
+      "mood": "neutral",
+      "eligibleReadings": 4,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "WATER",
+      "mood": "any",
+      "eligibleReadings": 3,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": null
+      }
+    },
+    {
+      "target": "WATER",
+      "mood": "masculine",
+      "eligibleReadings": 3,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "WATER",
+      "mood": "feminine",
+      "eligibleReadings": 3,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    },
+    {
+      "target": "WATER",
+      "mood": "neutral",
+      "eligibleReadings": 3,
+      "balance": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      },
+      "amplifyAfterBalanceExclusion": {
+        "count": 3,
+        "reviewedNatural": 0,
+        "moodMatch": 0
+      }
+    }
+  ]
+}

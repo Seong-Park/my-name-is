@@ -1,0 +1,1215 @@
+{
+  "sourceRepository": "https://github.com/Seong-Park/mylife",
+  "sourceRevision": "9c3566c61ae18c1c0884d07dff8aa48657bbd58a",
+  "generatedAtUtc": "2026-09-30T13:45:52.2053296Z",
+  "files": [
+    {
+      "source": "mvp/PRD.md",
+      "target": "docs/PRD.md",
+      "sourceSha256": "5A8D6B918ADE1110A8AD90FF37B4C7EE527F0E00009DF42D67B81F3E553EC9B7",
+      "transformed": true,
+      "transformation": "Standalone project status added; Final standalone paths, ignore rules, and implementation status updated",
+      "targetSha256": "59E00A0C625B4527C6006E2A782EEA6118AFA9857C3DBA99479EFD9D38F612D7"
+    },
+    {
+      "source": "mvp/adr/0010-my-name-is-frontend.md",
+      "target": "docs/adr/0010-my-name-is-frontend.md",
+      "sourceSha256": "BC240E0F71CA2824677BC724A1489D67434AAF03CC304143CBF0D3D97151828E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "BC240E0F71CA2824677BC724A1489D67434AAF03CC304143CBF0D3D97151828E"
+    },
+    {
+      "source": "mvp/adr/0011-my-name-is-backend.md",
+      "target": "docs/adr/0011-my-name-is-backend.md",
+      "sourceSha256": "485DBD13395E73ECEDF3253792B457A7283EC3CA2EB6058ADA5C37BCC083A505",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "28123B86AB2FC5E9DD32F6C53EF209FFE7BCA5F15AB115456CC5A8621FF94996"
+    },
+    {
+      "source": "mvp/plans/2026-09-29-my-name-is-planning-finalization.md",
+      "target": "docs/plans/2026-09-29-my-name-is-planning-finalization.md",
+      "sourceSha256": "66938C0A2295CC480DBA03CBB373F9B3016428E404EF7B5FE472D8DCC8522026",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "66938C0A2295CC480DBA03CBB373F9B3016428E404EF7B5FE472D8DCC8522026"
+    },
+    {
+      "source": "mvp/plans/2026-09-30-project-separation.md",
+      "target": "docs/plans/2026-09-30-project-separation.md",
+      "sourceSha256": "503B4FE268188976E51D62E56A578408AA1C0931E8352D946ABD76D40EC23015",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "503B4FE268188976E51D62E56A578408AA1C0931E8352D946ABD76D40EC23015"
+    },
+    {
+      "source": "mvp/research/2026-09-29-my-name-is-mvp-research.md",
+      "target": "docs/research/2026-09-29-my-name-is-mvp-research.md",
+      "sourceSha256": "43DD37CC7A5BB1B807340618D81C9878E807144AEF2E5D97FBE6CC466ABAD738",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "81D59A3C86D4188821F46B68C4288157F3E49D1710B734CA3A6A7DB918796455"
+    },
+    {
+      "source": "mvp/research/2026-09-29-name-mvp-bazi-rules.md",
+      "target": "docs/research/2026-09-29-name-mvp-bazi-rules.md",
+      "sourceSha256": "FA2C32F7D1EE014E109B2008CCB37E39DCCBC370AD769B324DA21F3897E1D15B",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "4FF270910077F010DD1B4D37E76545BFC98B8BC9E7BE20D69433094468CCF096"
+    },
+    {
+      "source": "mvp/research/2026-09-29-naming-primary-sources.md",
+      "target": "docs/research/2026-09-29-naming-primary-sources.md",
+      "sourceSha256": "30A4560E339E3AE9947409FC5E05FBAAB26BC2CCB8EAFE75840199F33E5C0328",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "30A4560E339E3AE9947409FC5E05FBAAB26BC2CCB8EAFE75840199F33E5C0328"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-bazi-condition-tables.md",
+      "target": "docs/research/2026-09-30-name-mvp-bazi-condition-tables.md",
+      "sourceSha256": "71255758D343A59D47B3B3392590BF397048B2D74AD4856C260CE7CF1E07BA41",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "0859A724B7056FE6491439C880879B6E30FDD331DC7132FA0D9C40F1F5674F7B"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-closed-support-review.md",
+      "target": "docs/research/2026-09-30-name-mvp-closed-support-review.md",
+      "sourceSha256": "7A9144E37BE99E01E9F241A06E666305284B1FE9D0B18E8B6AD8784EA47CCA31",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "AB792DF39FDAE92665208255298C714CA557F6183816E81CA09D8BD09666C0E3"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-hanja-expansion.json",
+      "target": "docs/research/2026-09-30-name-mvp-hanja-expansion.json",
+      "sourceSha256": "BFCC9B2015874F67F2094D1BAC371CCF8D622B3E62FEC73935C6347C0B556029",
+      "transformed": true,
+      "transformation": "Local evidence path made project-relative",
+      "targetSha256": "0A61A9BE885F1B613B01FF8E160C428B10EB2DD9BF26DB99CFB2DF8E6C8BA47B"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-hanja-expansion.md",
+      "target": "docs/research/2026-09-30-name-mvp-hanja-expansion.md",
+      "sourceSha256": "F2673FDA194F560676EA070C7215C0E0A2BA57E9BC96DF0212F6C2739FB6C4BD",
+      "transformed": true,
+      "transformation": "Local research evidence path made project-relative",
+      "targetSha256": "03E788E09C81DE6027568781CBE4986C34028D34CAADB30BF520CA827D8AFA53"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-hanja-verification.json",
+      "target": "docs/research/2026-09-30-name-mvp-hanja-verification.json",
+      "sourceSha256": "9354980A56F4984DA6D8B2DDB5B137297B40F0211856332D9558F0992BA842AF",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "9354980A56F4984DA6D8B2DDB5B137297B40F0211856332D9558F0992BA842AF"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-hanja-verification.md",
+      "target": "docs/research/2026-09-30-name-mvp-hanja-verification.md",
+      "sourceSha256": "B8526B0EC5553BB1FD2485AB936A53C519774E1B8763643F5F01A4A03CA3F9C7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "B8526B0EC5553BB1FD2485AB936A53C519774E1B8763643F5F01A4A03CA3F9C7"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-original-strokes.json",
+      "target": "docs/research/2026-09-30-name-mvp-original-strokes.json",
+      "sourceSha256": "9D1BC721BC0142ED69DC8747E11293962185B3B543EB54D9D6F9F007903B4703",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "9D1BC721BC0142ED69DC8747E11293962185B3B543EB54D9D6F9F007903B4703"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-original-strokes.md",
+      "target": "docs/research/2026-09-30-name-mvp-original-strokes.md",
+      "sourceSha256": "CF1F975155819C831716F0B723A98ED8B000C2D9DB7FE1648CFCEF2E0ACAD08E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CF1F975155819C831716F0B723A98ED8B000C2D9DB7FE1648CFCEF2E0ACAD08E"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-support-calendar-check.json",
+      "target": "docs/research/2026-09-30-name-mvp-support-calendar-check.json",
+      "sourceSha256": "E490A689157001EB710817A4E5E111BF20784ABCDB54ACEB729C50D46E0B76E6",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "E490A689157001EB710817A4E5E111BF20784ABCDB54ACEB729C50D46E0B76E6"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-suri-verification.json",
+      "target": "docs/research/2026-09-30-name-mvp-suri-verification.json",
+      "sourceSha256": "0E4B04DF615A3B037451591065205D5D0FBFD795E36BB514B00732982DDD2D6E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "0E4B04DF615A3B037451591065205D5D0FBFD795E36BB514B00732982DDD2D6E"
+    },
+    {
+      "source": "mvp/research/2026-09-30-name-mvp-suri-verification.md",
+      "target": "docs/research/2026-09-30-name-mvp-suri-verification.md",
+      "sourceSha256": "EDCB968C338894FE1BFD22E4D17A4C2468710EE5FC9C0E888F97AE7FFA648AA9",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "62F6B797E01659E2F0DA6AC322199BE671617FE6D545310DFEA2C309FD975514"
+    },
+    {
+      "source": "mvp/specs/2026-09-29-my-name-is-api-contract.md",
+      "target": "docs/specs/2026-09-29-my-name-is-api-contract.md",
+      "sourceSha256": "F397E696C0781F518B85BEE79E803E63999E079268F91254A0CBEB32AE8A437F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F397E696C0781F518B85BEE79E803E63999E079268F91254A0CBEB32AE8A437F"
+    },
+    {
+      "source": "mvp/specs/2026-09-29-my-name-is-core-rules-proposal.md",
+      "target": "docs/specs/2026-09-29-my-name-is-core-rules-proposal.md",
+      "sourceSha256": "761C7B0891E9DAF7FF8C0FBC01FEAF1BF946F12DA5D0C8966DCD4D9AB2A271FA",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "05279648EB6F63FE56D24AF297C36BC9FA41D45ADF580F84143ACB3C9281742A"
+    },
+    {
+      "source": "mvp/specs/2026-09-29-my-name-is-mvp-design.md",
+      "target": "docs/specs/2026-09-29-my-name-is-mvp-design.md",
+      "sourceSha256": "E310E23D7AD1F9C8C6A430A6E64818F7517E7FC82D3881485D9593276DF05C5A",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "7C23CFBEB4B449F2C901E9D0EDF838D2F1C2228B851F1DF24B1A45AF4B31AE65"
+    },
+    {
+      "source": "scripts/verify-name-research.py",
+      "target": "scripts/verify-name-research.py",
+      "sourceSha256": "03BAF707BD39BD08359AB735A91383B387B90F33618FB4ECE96DCE25D6426B81",
+      "transformed": true,
+      "transformation": "Data root updated to docs/research",
+      "targetSha256": "43E24F4724A8DE1197551F00824ACFA2066885ECA1C44688594F935D92883ACA"
+    },
+    {
+      "source": "scripts/verify-name-support-calendar.ts",
+      "target": "scripts/verify-name-support-calendar.ts",
+      "sourceSha256": "FDE9C355264C1A16155CE25D67A6CB84CB07397F8CE74D0FA61D5B3842655A5F",
+      "transformed": true,
+      "transformation": "Report path updated to docs/research",
+      "targetSha256": "5B73EDE304DDE88F60E28434E8925F9A80404F865F754894CD898601F7F866C0"
+    },
+    {
+      "source": "packages/bazi-domain/src/.gitkeep",
+      "target": "packages/bazi-domain/src/.gitkeep",
+      "sourceSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "packages/bazi-domain/src/index.ts",
+      "target": "packages/bazi-domain/src/index.ts",
+      "sourceSha256": "CC6AEF06FE0BF319CD1769A5D779DA4E19CC7FC359B740F7CBA06715729A6FA1",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CC6AEF06FE0BF319CD1769A5D779DA4E19CC7FC359B740F7CBA06715729A6FA1"
+    },
+    {
+      "source": "packages/bazi-domain/src/auxiliary/types.ts",
+      "target": "packages/bazi-domain/src/auxiliary/types.ts",
+      "sourceSha256": "05F383247D3B5AA06934BAEFAA876CBBCB238B1B96A4F04E0A80085394456E8F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "05F383247D3B5AA06934BAEFAA876CBBCB238B1B96A4F04E0A80085394456E8F"
+    },
+    {
+      "source": "packages/bazi-domain/src/balance/types.ts",
+      "target": "packages/bazi-domain/src/balance/types.ts",
+      "sourceSha256": "1C3FC1664078AA4B817E19C35763F4BA4A040D783329922C4998EE3598F03007",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "1C3FC1664078AA4B817E19C35763F4BA4A040D783329922C4998EE3598F03007"
+    },
+    {
+      "source": "packages/bazi-domain/src/birth/input.ts",
+      "target": "packages/bazi-domain/src/birth/input.ts",
+      "sourceSha256": "C7329D2EE830A80FF3F67140F4C656B9C69B050C87CF7C2966A6D2667C437000",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C7329D2EE830A80FF3F67140F4C656B9C69B050C87CF7C2966A6D2667C437000"
+    },
+    {
+      "source": "packages/bazi-domain/src/birth/normalization.ts",
+      "target": "packages/bazi-domain/src/birth/normalization.ts",
+      "sourceSha256": "4130CE1DCBA63C5433FA2006E4FA99AC8855D422B118584E95AB1B099C6058DA",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "4130CE1DCBA63C5433FA2006E4FA99AC8855D422B118584E95AB1B099C6058DA"
+    },
+    {
+      "source": "packages/bazi-domain/src/birth/profile.ts",
+      "target": "packages/bazi-domain/src/birth/profile.ts",
+      "sourceSha256": "7813DBF7BB3BC34DB8A34237C5517D1FD508502B36AFB72FD5BE43147EC0CD47",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "7813DBF7BB3BC34DB8A34237C5517D1FD508502B36AFB72FD5BE43147EC0CD47"
+    },
+    {
+      "source": "packages/bazi-domain/src/chart/analysis.ts",
+      "target": "packages/bazi-domain/src/chart/analysis.ts",
+      "sourceSha256": "085065A517698371BB7D222E13D5AF2FC75A791CDFE37EC4BEA74C030A58B8B9",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "085065A517698371BB7D222E13D5AF2FC75A791CDFE37EC4BEA74C030A58B8B9"
+    },
+    {
+      "source": "packages/bazi-domain/src/chart/calculation.ts",
+      "target": "packages/bazi-domain/src/chart/calculation.ts",
+      "sourceSha256": "C350249A1FD4D6972097F3F62951A656B4830ED5C7D666CAF9FACB2D4ED3D591",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C350249A1FD4D6972097F3F62951A656B4830ED5C7D666CAF9FACB2D4ED3D591"
+    },
+    {
+      "source": "packages/bazi-domain/src/chart/evidence.ts",
+      "target": "packages/bazi-domain/src/chart/evidence.ts",
+      "sourceSha256": "CEBA413FA02ABF02F799C277A60BC766EF684DF89C4BAAC8BA530A3863313592",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CEBA413FA02ABF02F799C277A60BC766EF684DF89C4BAAC8BA530A3863313592"
+    },
+    {
+      "source": "packages/bazi-domain/src/chart/pillars.ts",
+      "target": "packages/bazi-domain/src/chart/pillars.ts",
+      "sourceSha256": "8AA327B9F4DA342CF9D203A29D3099AE7EE7E8E4975F4CE562341F304E9279A2",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8AA327B9F4DA342CF9D203A29D3099AE7EE7E8E4975F4CE562341F304E9279A2"
+    },
+    {
+      "source": "packages/bazi-domain/src/chart/result.ts",
+      "target": "packages/bazi-domain/src/chart/result.ts",
+      "sourceSha256": "CABFA34AB4ED403C281FDCF3DC4B041D7A5614F7EB4C1DFA633A6445371846DF",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CABFA34AB4ED403C281FDCF3DC4B041D7A5614F7EB4C1DFA633A6445371846DF"
+    },
+    {
+      "source": "packages/bazi-domain/src/ganzhi/types.ts",
+      "target": "packages/bazi-domain/src/ganzhi/types.ts",
+      "sourceSha256": "431D258C24A8BD4907A01C8309EF44B9AEC27A8DC7A3C267E68081F633216B74",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "431D258C24A8BD4907A01C8309EF44B9AEC27A8DC7A3C267E68081F633216B74"
+    },
+    {
+      "source": "packages/bazi-domain/src/luck/types.ts",
+      "target": "packages/bazi-domain/src/luck/types.ts",
+      "sourceSha256": "7B7828E2C4FEB76459A19A7B003127192EB6BB9F826A5AECAF5B75248A6ACD4C",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "7B7828E2C4FEB76459A19A7B003127192EB6BB9F826A5AECAF5B75248A6ACD4C"
+    },
+    {
+      "source": "packages/bazi-domain/src/relations/types.ts",
+      "target": "packages/bazi-domain/src/relations/types.ts",
+      "sourceSha256": "FC54661E83392132539149FC0592A008280E954BD3DAEB2B64B2662EC22C0A3F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "FC54661E83392132539149FC0592A008280E954BD3DAEB2B64B2662EC22C0A3F"
+    },
+    {
+      "source": "packages/bazi-domain/src/structure/pattern.ts",
+      "target": "packages/bazi-domain/src/structure/pattern.ts",
+      "sourceSha256": "6B3AF1CDB5729F7F37EB611EDCFE550C428D76DB263141702FE1AF986F648F92",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "6B3AF1CDB5729F7F37EB611EDCFE550C428D76DB263141702FE1AF986F648F92"
+    },
+    {
+      "source": "packages/bazi-domain/src/structure/rooting.ts",
+      "target": "packages/bazi-domain/src/structure/rooting.ts",
+      "sourceSha256": "B8045B1B86B25448BFBFC1592A1E8E46A28DD3BCAAFA9DB104D5C0D1D3F8BEF9",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "B8045B1B86B25448BFBFC1592A1E8E46A28DD3BCAAFA9DB104D5C0D1D3F8BEF9"
+    },
+    {
+      "source": "packages/bazi-domain/src/structure/strength.ts",
+      "target": "packages/bazi-domain/src/structure/strength.ts",
+      "sourceSha256": "B677E327D676B01EE15C478C5E5A5A127431266DB96E4B65C5661AC9CC76DD51",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "B677E327D676B01EE15C478C5E5A5A127431266DB96E4B65C5661AC9CC76DD51"
+    },
+    {
+      "source": "packages/bazi-domain/src/ten-gods/types.ts",
+      "target": "packages/bazi-domain/src/ten-gods/types.ts",
+      "sourceSha256": "C1D023C8C67CC6439DFA081F7E059405F3D48C0AFD025606EACF3571C9DECC52",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C1D023C8C67CC6439DFA081F7E059405F3D48C0AFD025606EACF3571C9DECC52"
+    },
+    {
+      "source": "packages/bazi-domain/tests/analysis.test-d.ts",
+      "target": "packages/bazi-domain/tests/analysis.test-d.ts",
+      "sourceSha256": "CB6A319907FD6A6C5D1816C5E24D061CD181DEF6AEFF18457F65EC31D9407668",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CB6A319907FD6A6C5D1816C5E24D061CD181DEF6AEFF18457F65EC31D9407668"
+    },
+    {
+      "source": "packages/bazi-domain/tests/birth.test-d.ts",
+      "target": "packages/bazi-domain/tests/birth.test-d.ts",
+      "sourceSha256": "A6E047A95BD2E7D3F3FAAAEF696E35AC44516CF51AE5B02EDAF18C181F1F7A52",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "A6E047A95BD2E7D3F3FAAAEF696E35AC44516CF51AE5B02EDAF18C181F1F7A52"
+    },
+    {
+      "source": "packages/bazi-domain/tests/chart.test-d.ts",
+      "target": "packages/bazi-domain/tests/chart.test-d.ts",
+      "sourceSha256": "319F927839A0E0B55335C1E6D63885FD73EB07ECC795925B062475D43D233525",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "319F927839A0E0B55335C1E6D63885FD73EB07ECC795925B062475D43D233525"
+    },
+    {
+      "source": "packages/bazi-domain/tests/luck.test-d.ts",
+      "target": "packages/bazi-domain/tests/luck.test-d.ts",
+      "sourceSha256": "268B433445708C329E2729D0326057519233D51B9EF93DC25F6060D7870D3AA4",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "268B433445708C329E2729D0326057519233D51B9EF93DC25F6060D7870D3AA4"
+    },
+    {
+      "source": "packages/bazi-domain/tests/uncertainty.test-d.ts",
+      "target": "packages/bazi-domain/tests/uncertainty.test-d.ts",
+      "sourceSha256": "ED10A07FE47D34E3155EC63F5288573A6C6FD2F6161FCF8F9294B590CC06FF53",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "ED10A07FE47D34E3155EC63F5288573A6C6FD2F6161FCF8F9294B590CC06FF53"
+    },
+    {
+      "source": "packages/bazi-domain/package.json",
+      "target": "packages/bazi-domain/package.json",
+      "sourceSha256": "BE5E5804F41E380ABF0EDDCF6E1012A925B564789644EB1DF77993819F477672",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "BE5E5804F41E380ABF0EDDCF6E1012A925B564789644EB1DF77993819F477672"
+    },
+    {
+      "source": "packages/bazi-domain/README.md",
+      "target": "packages/bazi-domain/README.md",
+      "sourceSha256": "6DC12AB995721D09AB1F14CD71BCE2AF51CB7C813060F9F6B9370876F525C8B5",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "79AEB103B9D5DAC643E91A94DD79A10B894A8B31591155C4995D1EFE6C6C4D8B"
+    },
+    {
+      "source": "packages/bazi-domain/tsconfig.json",
+      "target": "packages/bazi-domain/tsconfig.json",
+      "sourceSha256": "397E79AA7525F12281E9EF75DD84C9E7BDB048ECE50FB9074AD29FC0CE53FA94",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "397E79AA7525F12281E9EF75DD84C9E7BDB048ECE50FB9074AD29FC0CE53FA94"
+    },
+    {
+      "source": "packages/bazi-domain/tsconfig.test.json",
+      "target": "packages/bazi-domain/tsconfig.test.json",
+      "sourceSha256": "1B0A2E1FFC8EA6D1ACEE46CC1032178D89521E3A092C063EF521B43F11357070",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "1B0A2E1FFC8EA6D1ACEE46CC1032178D89521E3A092C063EF521B43F11357070"
+    },
+    {
+      "source": "packages/bazi-rules/src/.gitkeep",
+      "target": "packages/bazi-rules/src/.gitkeep",
+      "sourceSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "packages/bazi-rules/src/branches.ts",
+      "target": "packages/bazi-rules/src/branches.ts",
+      "sourceSha256": "0ADC9B2900C4349EB3BE55BE59138F1EDF050E65DDD93861B8156361946E8083",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "0ADC9B2900C4349EB3BE55BE59138F1EDF050E65DDD93861B8156361946E8083"
+    },
+    {
+      "source": "packages/bazi-rules/src/ganzhi.ts",
+      "target": "packages/bazi-rules/src/ganzhi.ts",
+      "sourceSha256": "4199B8B1140623EB74199EF117E8391508E6F1CCF9416ADDA89A2AE98FC6C718",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "4199B8B1140623EB74199EF117E8391508E6F1CCF9416ADDA89A2AE98FC6C718"
+    },
+    {
+      "source": "packages/bazi-rules/src/hidden-stems.ts",
+      "target": "packages/bazi-rules/src/hidden-stems.ts",
+      "sourceSha256": "F3E9C4D95B976956FD32D6EB71342EF766D07F61D5E034621FFA40F447DD5D96",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F3E9C4D95B976956FD32D6EB71342EF766D07F61D5E034621FFA40F447DD5D96"
+    },
+    {
+      "source": "packages/bazi-rules/src/index.ts",
+      "target": "packages/bazi-rules/src/index.ts",
+      "sourceSha256": "5EDA4218FB5D97016B776D62E489066FF0B910CB5113CC46CE66645C5048010E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "5EDA4218FB5D97016B776D62E489066FF0B910CB5113CC46CE66645C5048010E"
+    },
+    {
+      "source": "packages/bazi-rules/src/shinsal.ts",
+      "target": "packages/bazi-rules/src/shinsal.ts",
+      "sourceSha256": "8E647B8FF7418C12B8092A049A7A38126758631E65CD1724D2E62C98BF55BD15",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8E647B8FF7418C12B8092A049A7A38126758631E65CD1724D2E62C98BF55BD15"
+    },
+    {
+      "source": "packages/bazi-rules/src/stems.ts",
+      "target": "packages/bazi-rules/src/stems.ts",
+      "sourceSha256": "8209DE3F691843B5A3993E4AFF8EA363053F08400F4B4C1855090E047F7A8E88",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8209DE3F691843B5A3993E4AFF8EA363053F08400F4B4C1855090E047F7A8E88"
+    },
+    {
+      "source": "packages/bazi-rules/src/ten-gods.ts",
+      "target": "packages/bazi-rules/src/ten-gods.ts",
+      "sourceSha256": "192B9F07267972B46CAF2C71CCB66C62F0027B286F903B74738670FC14AC0879",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "192B9F07267972B46CAF2C71CCB66C62F0027B286F903B74738670FC14AC0879"
+    },
+    {
+      "source": "packages/bazi-rules/src/twelve-stages.ts",
+      "target": "packages/bazi-rules/src/twelve-stages.ts",
+      "sourceSha256": "1D67F58D8846A2C46C393A34557FEE0665ED87387E474727549F2E3EF4BA09DB",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "1D67F58D8846A2C46C393A34557FEE0665ED87387E474727549F2E3EF4BA09DB"
+    },
+    {
+      "source": "packages/bazi-rules/src/types.ts",
+      "target": "packages/bazi-rules/src/types.ts",
+      "sourceSha256": "E730EBF83014EF6A3E54E94278E7529EE24579D502301EAC743274B27C02B2A7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "E730EBF83014EF6A3E54E94278E7529EE24579D502301EAC743274B27C02B2A7"
+    },
+    {
+      "source": "packages/bazi-rules/src/relations/branches.ts",
+      "target": "packages/bazi-rules/src/relations/branches.ts",
+      "sourceSha256": "FB762E5A8C0E42F0100B4892DE0E0D6C1D75CD9FC6F99108798A6D148288F6D7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "FB762E5A8C0E42F0100B4892DE0E0D6C1D75CD9FC6F99108798A6D148288F6D7"
+    },
+    {
+      "source": "packages/bazi-rules/src/relations/stems.ts",
+      "target": "packages/bazi-rules/src/relations/stems.ts",
+      "sourceSha256": "AB4B0AD03AEA0A09D2AD9D5E8E0E1BB322115F53A46D214DDD9FBBE832E63308",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "AB4B0AD03AEA0A09D2AD9D5E8E0E1BB322115F53A46D214DDD9FBBE832E63308"
+    },
+    {
+      "source": "packages/bazi-rules/src/rulesets/mylife-standard-v1.ts",
+      "target": "packages/bazi-rules/src/rulesets/mylife-standard-v1.ts",
+      "sourceSha256": "C1C5D642F2996F2519BEEF0C4FAB95367F1ADE8F055BD302833B956EA3CA3EB0",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C1C5D642F2996F2519BEEF0C4FAB95367F1ADE8F055BD302833B956EA3CA3EB0"
+    },
+    {
+      "source": "packages/bazi-rules/tests/auxiliary-tables.test.ts",
+      "target": "packages/bazi-rules/tests/auxiliary-tables.test.ts",
+      "sourceSha256": "6E6749037047F9EA6DBCBF652BBAFBD70DE3A1B3DE7339024502E8A9C64449E7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "6E6749037047F9EA6DBCBF652BBAFBD70DE3A1B3DE7339024502E8A9C64449E7"
+    },
+    {
+      "source": "packages/bazi-rules/tests/basic-tables.test.ts",
+      "target": "packages/bazi-rules/tests/basic-tables.test.ts",
+      "sourceSha256": "A9205B4F974E96483CC58C60925955AA52CA99D1F3E13278BBE5CF6D6B044FC3",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "A9205B4F974E96483CC58C60925955AA52CA99D1F3E13278BBE5CF6D6B044FC3"
+    },
+    {
+      "source": "packages/bazi-rules/tests/basic-types.test-d.ts",
+      "target": "packages/bazi-rules/tests/basic-types.test-d.ts",
+      "sourceSha256": "830B4B4092D0DCFBFDAD60744FC7FD3F77B0F95165D708AA294F03FDC4B29ACE",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "830B4B4092D0DCFBFDAD60744FC7FD3F77B0F95165D708AA294F03FDC4B29ACE"
+    },
+    {
+      "source": "packages/bazi-rules/tests/relations.test.ts",
+      "target": "packages/bazi-rules/tests/relations.test.ts",
+      "sourceSha256": "9FDAF87A9786C986809944D263521652989300B9710C46EFC2F41B2687EF8DD6",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "9FDAF87A9786C986809944D263521652989300B9710C46EFC2F41B2687EF8DD6"
+    },
+    {
+      "source": "packages/bazi-rules/tests/rule-sources.test.ts",
+      "target": "packages/bazi-rules/tests/rule-sources.test.ts",
+      "sourceSha256": "01A04402A4666DF3ACD738E738D08E133EBBF65E6633E35E3A6B6D5830875635",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "01A04402A4666DF3ACD738E738D08E133EBBF65E6633E35E3A6B6D5830875635"
+    },
+    {
+      "source": "packages/bazi-rules/tests/rules-reference.test.ts",
+      "target": "packages/bazi-rules/tests/rules-reference.test.ts",
+      "sourceSha256": "C91382DC296E4D69E34715C2502C5A340454326F1279C6BD3F079FE612FFA294",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C91382DC296E4D69E34715C2502C5A340454326F1279C6BD3F079FE612FFA294"
+    },
+    {
+      "source": "packages/bazi-rules/tests/ruleset-types.test-d.ts",
+      "target": "packages/bazi-rules/tests/ruleset-types.test-d.ts",
+      "sourceSha256": "A0979988FA46A800BEB4596434261ADE0AF1A70922856A298DFB5A5798F81C9B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "A0979988FA46A800BEB4596434261ADE0AF1A70922856A298DFB5A5798F81C9B"
+    },
+    {
+      "source": "packages/bazi-rules/tests/ruleset.test.ts",
+      "target": "packages/bazi-rules/tests/ruleset.test.ts",
+      "sourceSha256": "3147F51415EB2E8F6FB4CDB11203CC9E84AD2C03E48B4B79D14B9B6CBD8EDE3B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "3147F51415EB2E8F6FB4CDB11203CC9E84AD2C03E48B4B79D14B9B6CBD8EDE3B"
+    },
+    {
+      "source": "packages/bazi-rules/tests/source-types.test-d.ts",
+      "target": "packages/bazi-rules/tests/source-types.test-d.ts",
+      "sourceSha256": "67A2677E0BAB2475569CF4A8116242CEFB69D7207E573AA1E40F0F998AB19102",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "67A2677E0BAB2475569CF4A8116242CEFB69D7207E573AA1E40F0F998AB19102"
+    },
+    {
+      "source": "packages/bazi-rules/tests/fixtures/auxiliary-reference.json",
+      "target": "packages/bazi-rules/tests/fixtures/auxiliary-reference.json",
+      "sourceSha256": "8D4A31B9EC827E1FC70CC4CC5018DB2791318FE6029679A04C9AE66958788139",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8D4A31B9EC827E1FC70CC4CC5018DB2791318FE6029679A04C9AE66958788139"
+    },
+    {
+      "source": "packages/bazi-rules/tests/fixtures/basic-reference.json",
+      "target": "packages/bazi-rules/tests/fixtures/basic-reference.json",
+      "sourceSha256": "5A02F23E504BCE7EB8DA68AD1E9DD7B4E5CA3ED4926632BDF4D611E21DC82012",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "5A02F23E504BCE7EB8DA68AD1E9DD7B4E5CA3ED4926632BDF4D611E21DC82012"
+    },
+    {
+      "source": "packages/bazi-rules/tests/fixtures/relations-reference.json",
+      "target": "packages/bazi-rules/tests/fixtures/relations-reference.json",
+      "sourceSha256": "F69C5DBF84191FC5D5DEDE18DACA9EB87ADFDD3C2F87EBFB4AED045D2F75560D",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F69C5DBF84191FC5D5DEDE18DACA9EB87ADFDD3C2F87EBFB4AED045D2F75560D"
+    },
+    {
+      "source": "packages/bazi-rules/tests/fixtures/rules-reference.json",
+      "target": "packages/bazi-rules/tests/fixtures/rules-reference.json",
+      "sourceSha256": "C146B8BEF03439D1DEABBA7632CFD678B519E76567770AD1814856EF6DF0EBF3",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C146B8BEF03439D1DEABBA7632CFD678B519E76567770AD1814856EF6DF0EBF3"
+    },
+    {
+      "source": "packages/bazi-rules/tests/fixtures/ten-gods-reference.json",
+      "target": "packages/bazi-rules/tests/fixtures/ten-gods-reference.json",
+      "sourceSha256": "02C380C07328940369B07EA2AEA10E2EEA5CBEBA07C46B0B5BC8CD9C506908ED",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "02C380C07328940369B07EA2AEA10E2EEA5CBEBA07C46B0B5BC8CD9C506908ED"
+    },
+    {
+      "source": "packages/bazi-rules/package.json",
+      "target": "packages/bazi-rules/package.json",
+      "sourceSha256": "387224D34334E875EA62A5D25549B1F08E036FA83C9F78E98F7BCE489448638E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "387224D34334E875EA62A5D25549B1F08E036FA83C9F78E98F7BCE489448638E"
+    },
+    {
+      "source": "packages/bazi-rules/README.md",
+      "target": "packages/bazi-rules/README.md",
+      "sourceSha256": "DF1883C323D54363B966F09E5629388C9FC8AD0DA02A588979B93B16C4109013",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "4D3E21ADEB4ED19C38776E28D3F5541374A087DA6F9AD4E887F59814F6524111"
+    },
+    {
+      "source": "packages/bazi-rules/tsconfig.json",
+      "target": "packages/bazi-rules/tsconfig.json",
+      "sourceSha256": "ADCE7B6DB756CE812745C413616485316FC21C829AB801675B55A6E86779ECF9",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "ADCE7B6DB756CE812745C413616485316FC21C829AB801675B55A6E86779ECF9"
+    },
+    {
+      "source": "packages/bazi-rules/vitest.config.ts",
+      "target": "packages/bazi-rules/vitest.config.ts",
+      "sourceSha256": "C1F1FDB770FE014EE632320A4883FF24E43F3337049D17C87B35758DF4042D8B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C1F1FDB770FE014EE632320A4883FF24E43F3337049D17C87B35758DF4042D8B"
+    },
+    {
+      "source": "packages/bazi-engine/src/.gitkeep",
+      "target": "packages/bazi-engine/src/.gitkeep",
+      "sourceSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "packages/bazi-engine/src/index.ts",
+      "target": "packages/bazi-engine/src/index.ts",
+      "sourceSha256": "A7A43EE6B9A9C98524AB7261AD4E55C0C4E7C2A16DB23A47C495661ADFB59A0F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "A7A43EE6B9A9C98524AB7261AD4E55C0C4E7C2A16DB23A47C495661ADFB59A0F"
+    },
+    {
+      "source": "packages/bazi-engine/src/pillars/dayPillar.ts",
+      "target": "packages/bazi-engine/src/pillars/dayPillar.ts",
+      "sourceSha256": "60EC20B6F96A5FF68F9968E78A5E092D15E96DED0FEF32F59C5E6F6BC9B70C86",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "60EC20B6F96A5FF68F9968E78A5E092D15E96DED0FEF32F59C5E6F6BC9B70C86"
+    },
+    {
+      "source": "packages/bazi-engine/src/pillars/hourPillar.ts",
+      "target": "packages/bazi-engine/src/pillars/hourPillar.ts",
+      "sourceSha256": "3D768F5BB4438CD30E4CE56F06B6A8706B3D28C2C0E13CC3106FC3A13ABCF712",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "3D768F5BB4438CD30E4CE56F06B6A8706B3D28C2C0E13CC3106FC3A13ABCF712"
+    },
+    {
+      "source": "packages/bazi-engine/src/pillars/jie.ts",
+      "target": "packages/bazi-engine/src/pillars/jie.ts",
+      "sourceSha256": "9EAE70B89C77E5428BF9DE2C3B0B1F2629DC5916913A9A0CD78B996A3250864D",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "9EAE70B89C77E5428BF9DE2C3B0B1F2629DC5916913A9A0CD78B996A3250864D"
+    },
+    {
+      "source": "packages/bazi-engine/src/pillars/monthPillar.ts",
+      "target": "packages/bazi-engine/src/pillars/monthPillar.ts",
+      "sourceSha256": "8EE0C6652440696A683D61B6BBFF576CF14A3208E51E500A413305C7F999FED7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8EE0C6652440696A683D61B6BBFF576CF14A3208E51E500A413305C7F999FED7"
+    },
+    {
+      "source": "packages/bazi-engine/src/pillars/yearPillar.ts",
+      "target": "packages/bazi-engine/src/pillars/yearPillar.ts",
+      "sourceSha256": "CAFFB20CB584ED0B09012FC54AE0BEB9BE83468AAF0AC9FF7E5295CFC64A4E25",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "CAFFB20CB584ED0B09012FC54AE0BEB9BE83468AAF0AC9FF7E5295CFC64A4E25"
+    },
+    {
+      "source": "packages/bazi-engine/src/pipeline/calculateFourPillars.ts",
+      "target": "packages/bazi-engine/src/pipeline/calculateFourPillars.ts",
+      "sourceSha256": "AC810CEDCC39505A0E132724B7983B014D38E9B4151858840292B474BD04EED8",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "AC810CEDCC39505A0E132724B7983B014D38E9B4151858840292B474BD04EED8"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/astronomy-provider.ts",
+      "target": "packages/bazi-engine/src/time/astronomy-provider.ts",
+      "sourceSha256": "4A9EB8167D01367CE53CEEA6E41E266F93A6F4790823E15202D17D53456C1CBC",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "4A9EB8167D01367CE53CEEA6E41E266F93A6F4790823E15202D17D53456C1CBC"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/calendar-context.ts",
+      "target": "packages/bazi-engine/src/time/calendar-context.ts",
+      "sourceSha256": "21A1093055E26AA9238B5672C505E81DC6B6B3D784A76CD583B316438AFE2837",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "21A1093055E26AA9238B5672C505E81DC6B6B3D784A76CD583B316438AFE2837"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/calendar.ts",
+      "target": "packages/bazi-engine/src/time/calendar.ts",
+      "sourceSha256": "032D1771A5387636EAA1546B2B738F540BF5626138F2606868C773E93656AC18",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "032D1771A5387636EAA1546B2B738F540BF5626138F2606868C773E93656AC18"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/candidateIntervals.ts",
+      "target": "packages/bazi-engine/src/time/candidateIntervals.ts",
+      "sourceSha256": "15D568219C7656D882DAE21FEC8B0662A76A6F0A6958937A911B6E9AEC573440",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "15D568219C7656D882DAE21FEC8B0662A76A6F0A6958937A911B6E9AEC573440"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/dayBoundary.ts",
+      "target": "packages/bazi-engine/src/time/dayBoundary.ts",
+      "sourceSha256": "14DDC4AD5FC464E89A66C429E29E288A288A8490B1DF10BFB1B2D6D7DE5C0CBA",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "14DDC4AD5FC464E89A66C429E29E288A288A8490B1DF10BFB1B2D6D7DE5C0CBA"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/lunar-provider.ts",
+      "target": "packages/bazi-engine/src/time/lunar-provider.ts",
+      "sourceSha256": "24A9BD6FE62889A0156867718FB6AEC96BCCFCB2E80C9EF41F77B763098CE977",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "24A9BD6FE62889A0156867718FB6AEC96BCCFCB2E80C9EF41F77B763098CE977"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/provider-errors.ts",
+      "target": "packages/bazi-engine/src/time/provider-errors.ts",
+      "sourceSha256": "D97450457CFD038BD01BAD421AC04DE4BD8435EA1E8B85C847484273C0976158",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "D97450457CFD038BD01BAD421AC04DE4BD8435EA1E8B85C847484273C0976158"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/providers.ts",
+      "target": "packages/bazi-engine/src/time/providers.ts",
+      "sourceSha256": "985F8C1631C21B2A4E23255B11232410BB8AB48A4737B2E399DF6D5348A44C6E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "985F8C1631C21B2A4E23255B11232410BB8AB48A4737B2E399DF6D5348A44C6E"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/timezone-provider.ts",
+      "target": "packages/bazi-engine/src/time/timezone-provider.ts",
+      "sourceSha256": "196DE69D95017BDFB832760ADEFB89A7FECCD573A203452862E4B7330D3E9DC5",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "196DE69D95017BDFB832760ADEFB89A7FECCD573A203452862E4B7330D3E9DC5"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/timezone.ts",
+      "target": "packages/bazi-engine/src/time/timezone.ts",
+      "sourceSha256": "C23F7CC13F6085809BAE7678B0D31218BC28F89F5E1C7960C70FC964ACCAD087",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C23F7CC13F6085809BAE7678B0D31218BC28F89F5E1C7960C70FC964ACCAD087"
+    },
+    {
+      "source": "packages/bazi-engine/src/time/trueSolarTime.ts",
+      "target": "packages/bazi-engine/src/time/trueSolarTime.ts",
+      "sourceSha256": "BCB83F81909D7ED180F417E25E517A2D8B6E5E328D549A9CC5924C8652CCB01F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "BCB83F81909D7ED180F417E25E517A2D8B6E5E328D549A9CC5924C8652CCB01F"
+    },
+    {
+      "source": "packages/bazi-engine/tests/calendar-context.test.ts",
+      "target": "packages/bazi-engine/tests/calendar-context.test.ts",
+      "sourceSha256": "43516CFEF3F5D35E6FD74DB87C38AF2681E9757CBB7C1E1D5D3F40732E429AD7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "43516CFEF3F5D35E6FD74DB87C38AF2681E9757CBB7C1E1D5D3F40732E429AD7"
+    },
+    {
+      "source": "packages/bazi-engine/tests/calendar.test.ts",
+      "target": "packages/bazi-engine/tests/calendar.test.ts",
+      "sourceSha256": "78950A0163B4E5BB834590719DE89CE359B0A5F245B001B3480CB10C1D82ADC7",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "78950A0163B4E5BB834590719DE89CE359B0A5F245B001B3480CB10C1D82ADC7"
+    },
+    {
+      "source": "packages/bazi-engine/tests/day-hour.test.ts",
+      "target": "packages/bazi-engine/tests/day-hour.test.ts",
+      "sourceSha256": "768CA1E7BEE1B86D57BC8172D3818E4B5476BE49F0011B3AB3684F30568B4CD9",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "768CA1E7BEE1B86D57BC8172D3818E4B5476BE49F0011B3AB3684F30568B4CD9"
+    },
+    {
+      "source": "packages/bazi-engine/tests/pipeline.test.ts",
+      "target": "packages/bazi-engine/tests/pipeline.test.ts",
+      "sourceSha256": "90E2AD1FA59C05EBF8A5F139710D898BD043333C83A6075872DC87FFC7182810",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "90E2AD1FA59C05EBF8A5F139710D898BD043333C83A6075872DC87FFC7182810"
+    },
+    {
+      "source": "packages/bazi-engine/tests/provider-failure.test.ts",
+      "target": "packages/bazi-engine/tests/provider-failure.test.ts",
+      "sourceSha256": "81AE416D8648544303A0ACF2384FD0DB6166DE2DFA514FBE7B3A381473C23916",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "81AE416D8648544303A0ACF2384FD0DB6166DE2DFA514FBE7B3A381473C23916"
+    },
+    {
+      "source": "packages/bazi-engine/tests/providers.test.ts",
+      "target": "packages/bazi-engine/tests/providers.test.ts",
+      "sourceSha256": "3E38A4280FBA781A279A8CA4C26F0243AE74AB711C37F25696DE28E21E761F4C",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "3E38A4280FBA781A279A8CA4C26F0243AE74AB711C37F25696DE28E21E761F4C"
+    },
+    {
+      "source": "packages/bazi-engine/tests/reference.test.ts",
+      "target": "packages/bazi-engine/tests/reference.test.ts",
+      "sourceSha256": "6C96B58ABD5DCFD74A803A4373AB32059A911F0B1A094E2D02FF88DD3F46C935",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "6C96B58ABD5DCFD74A803A4373AB32059A911F0B1A094E2D02FF88DD3F46C935"
+    },
+    {
+      "source": "packages/bazi-engine/tests/reproducibility.test.ts",
+      "target": "packages/bazi-engine/tests/reproducibility.test.ts",
+      "sourceSha256": "99748F72F1EAA61807213EB367FA1367846878DF216C326CFFBA537501B28EC6",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "99748F72F1EAA61807213EB367FA1367846878DF216C326CFFBA537501B28EC6"
+    },
+    {
+      "source": "packages/bazi-engine/tests/solar-time.test.ts",
+      "target": "packages/bazi-engine/tests/solar-time.test.ts",
+      "sourceSha256": "F8A16954A05C16522D3BD5D17CA2C00536EF77F84327EF4D57FFB1B6E1AB740E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F8A16954A05C16522D3BD5D17CA2C00536EF77F84327EF4D57FFB1B6E1AB740E"
+    },
+    {
+      "source": "packages/bazi-engine/tests/timezone.test.ts",
+      "target": "packages/bazi-engine/tests/timezone.test.ts",
+      "sourceSha256": "648A429147C2BEA7FE332306961F46DD0C0F4BDA7B3FC7F1A6CF71789B6BB484",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "648A429147C2BEA7FE332306961F46DD0C0F4BDA7B3FC7F1A6CF71789B6BB484"
+    },
+    {
+      "source": "packages/bazi-engine/tests/uncertainty.test.ts",
+      "target": "packages/bazi-engine/tests/uncertainty.test.ts",
+      "sourceSha256": "EB0D62AE9CC4DAD6CCCA1BEA23F44C445D04156566D85123A14D3A95F7FF022F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "EB0D62AE9CC4DAD6CCCA1BEA23F44C445D04156566D85123A14D3A95F7FF022F"
+    },
+    {
+      "source": "packages/bazi-engine/tests/year-month.test.ts",
+      "target": "packages/bazi-engine/tests/year-month.test.ts",
+      "sourceSha256": "812ABD2004B8478762A73BEA7D6AFD5F2E3B1D6D5A64596E523C93583F363D90",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "812ABD2004B8478762A73BEA7D6AFD5F2E3B1D6D5A64596E523C93583F363D90"
+    },
+    {
+      "source": "packages/bazi-engine/tests/fixtures/calendar-reference.json",
+      "target": "packages/bazi-engine/tests/fixtures/calendar-reference.json",
+      "sourceSha256": "691E628D1D822A37D6FAA5B7E5BF72EBF218A4C08536D794432B327AF456E14E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "691E628D1D822A37D6FAA5B7E5BF72EBF218A4C08536D794432B327AF456E14E"
+    },
+    {
+      "source": "packages/bazi-engine/tests/fixtures/day-reference.json",
+      "target": "packages/bazi-engine/tests/fixtures/day-reference.json",
+      "sourceSha256": "F86DD1F0F982C53348D24F17FB276877B6A51ABB38109C49300521A496FE79B0",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F86DD1F0F982C53348D24F17FB276877B6A51ABB38109C49300521A496FE79B0"
+    },
+    {
+      "source": "packages/bazi-engine/tests/fixtures/reference-cases.json",
+      "target": "packages/bazi-engine/tests/fixtures/reference-cases.json",
+      "sourceSha256": "C69EB637729C3ED2170D5E9E3F99BB78984A769D0A48AAC91A57B455738B95A1",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C69EB637729C3ED2170D5E9E3F99BB78984A769D0A48AAC91A57B455738B95A1"
+    },
+    {
+      "source": "packages/bazi-engine/tests/fixtures/SOURCES.md",
+      "target": "packages/bazi-engine/tests/fixtures/SOURCES.md",
+      "sourceSha256": "186D491F6C333D24FCF1546A4F2F50E20DDFA4C0FF0A8AC71E5BD563C7EFA829",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "186D491F6C333D24FCF1546A4F2F50E20DDFA4C0FF0A8AC71E5BD563C7EFA829"
+    },
+    {
+      "source": "packages/bazi-engine/package.json",
+      "target": "packages/bazi-engine/package.json",
+      "sourceSha256": "424FA23FC0B6A4C569B610C67C52A576DBBFB9A1DC3AA2C2DB01FC02E425C12A",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "424FA23FC0B6A4C569B610C67C52A576DBBFB9A1DC3AA2C2DB01FC02E425C12A"
+    },
+    {
+      "source": "packages/bazi-engine/README.md",
+      "target": "packages/bazi-engine/README.md",
+      "sourceSha256": "3D59108B48915BC1ADEC817A0F567B3527B06CAB5D7FD498FD346E2D0C06A112",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "C4AEFDBFFB3917ACA17E6E38767AD5C18C46A82BD6F73F510F0C0FC3553D899F"
+    },
+    {
+      "source": "packages/bazi-engine/tsconfig.json",
+      "target": "packages/bazi-engine/tsconfig.json",
+      "sourceSha256": "ADCE7B6DB756CE812745C413616485316FC21C829AB801675B55A6E86779ECF9",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "ADCE7B6DB756CE812745C413616485316FC21C829AB801675B55A6E86779ECF9"
+    },
+    {
+      "source": "packages/bazi-engine/vitest.config.ts",
+      "target": "packages/bazi-engine/vitest.config.ts",
+      "sourceSha256": "C1F1FDB770FE014EE632320A4883FF24E43F3337049D17C87B35758DF4042D8B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "C1F1FDB770FE014EE632320A4883FF24E43F3337049D17C87B35758DF4042D8B"
+    },
+    {
+      "source": "packages/database/data/hanja_dictionary.json",
+      "target": "packages/database/data/hanja_dictionary.json",
+      "sourceSha256": "7060C1ECF3645A72C2FCD20FEFFD57F73E5FD12327CA667DC3BC1065998714C2",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "7060C1ECF3645A72C2FCD20FEFFD57F73E5FD12327CA667DC3BC1065998714C2"
+    },
+    {
+      "source": "packages/database/data/81_suri_score_table.json",
+      "target": "packages/database/data/81_suri_score_table.json",
+      "sourceSha256": "78CAB381B77C61843448C12BEC5466B5636B7310B8EB79AB3A86963DB918DDFF",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "78CAB381B77C61843448C12BEC5466B5636B7310B8EB79AB3A86963DB918DDFF"
+    },
+    {
+      "source": "packages/database/data/suri_81_luck.json",
+      "target": "packages/database/data/suri_81_luck.json",
+      "sourceSha256": "4125C9434FE08D8AE422F15442D268167D7E6999B5C6D98290AB61E31A4B5B60",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "4125C9434FE08D8AE422F15442D268167D7E6999B5C6D98290AB61E31A4B5B60"
+    },
+    {
+      "source": "packages/database/data/name_blacklist.json",
+      "target": "packages/database/data/name_blacklist.json",
+      "sourceSha256": "328371FF611878A98103852EEC58C8CA24456948EFA47450CC61D259C0DA0C3B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "328371FF611878A98103852EEC58C8CA24456948EFA47450CC61D259C0DA0C3B"
+    },
+    {
+      "source": "packages/bazi-application/src/reference/locations.ts",
+      "target": "packages/bazi-application/src/reference/locations.ts",
+      "sourceSha256": "8D279F9438F701141DD04DBF57A67285A16075E2DEB2A9CBA73A38DA03CDFC97",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "8D279F9438F701141DD04DBF57A67285A16075E2DEB2A9CBA73A38DA03CDFC97"
+    },
+    {
+      "source": "packages/bazi-application/src/reference/locations-data.ts",
+      "target": "packages/bazi-application/src/reference/locations-data.ts",
+      "sourceSha256": "98246B88336E577D2F02CC4CCB7B04EA8ED541322B98A7E0CF78F917723C412E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "98246B88336E577D2F02CC4CCB7B04EA8ED541322B98A7E0CF78F917723C412E"
+    },
+    {
+      "source": "packages/bazi-application/src/reference/SOURCES.md",
+      "target": "packages/bazi-application/src/reference/SOURCES.md",
+      "sourceSha256": "F12C06067D254626AD1DE4DCAC298C57370D56A88D1F30A24785DE09D103DCB2",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F12C06067D254626AD1DE4DCAC298C57370D56A88D1F30A24785DE09D103DCB2"
+    },
+    {
+      "source": "packages/bazi-application/src/reference/source/generate.py",
+      "target": "packages/bazi-application/src/reference/source/generate.py",
+      "sourceSha256": "F92E8FB2B1067F249BB002A67FB267A2B2D08034FF156F096D182884672143A3",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "F92E8FB2B1067F249BB002A67FB267A2B2D08034FF156F096D182884672143A3"
+    },
+    {
+      "source": "packages/bazi-application/src/reference/source/kma-2607.zip",
+      "target": "packages/bazi-application/src/reference/source/kma-2607.zip",
+      "sourceSha256": "07F53CD9D6D6512BCE6EF870D54CB740046A0A949896E6855CAECF739FB8842E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "07F53CD9D6D6512BCE6EF870D54CB740046A0A949896E6855CAECF739FB8842E"
+    },
+    {
+      "source": ".cache/name-hanja-research/2024-06-11-hanja-unicode-hosted.pdf",
+      "target": ".cache/name-hanja-research/2024-06-11-hanja-unicode-hosted.pdf",
+      "sourceSha256": "A2B3C6F2E16614225CD01A4CFE561E2516B67A5E03F249A66B64AEA9414A0C97",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "A2B3C6F2E16614225CD01A4CFE561E2516B67A5E03F249A66B64AEA9414A0C97"
+    },
+    {
+      "source": ".cache/name-hanja-research/mylife-hanja-15.png",
+      "target": ".cache/name-hanja-research/mylife-hanja-15.png",
+      "sourceSha256": "63F3AAE22CEA15BDA1B1CAF2312C2736BC9486483E553D3BFC833A93048EA156",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "63F3AAE22CEA15BDA1B1CAF2312C2736BC9486483E553D3BFC833A93048EA156"
+    },
+    {
+      "source": ".cache/name-hanja-research/mylife-hanja-27.png",
+      "target": ".cache/name-hanja-research/mylife-hanja-27.png",
+      "sourceSha256": "349C512677BC9C743F1AE209B2A733FA87DA2C340DF19128867EB931C2A5214B",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "349C512677BC9C743F1AE209B2A733FA87DA2C340DF19128867EB931C2A5214B"
+    },
+    {
+      "source": ".cache/name-hanja-research/mylife-hanja-41.png",
+      "target": ".cache/name-hanja-research/mylife-hanja-41.png",
+      "sourceSha256": "2FF6562ADAEF7DD5A9CA2FE3EE288E3FBF6288BE4CE67641BF553EFA26F21B9E",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "2FF6562ADAEF7DD5A9CA2FE3EE288E3FBF6288BE4CE67641BF553EFA26F21B9E"
+    },
+    {
+      "source": ".cache/name-hanja-research/mylife-hanja-42.png",
+      "target": ".cache/name-hanja-research/mylife-hanja-42.png",
+      "sourceSha256": "7850D080A403FC58CF5AFC578909933BB82D52F314C17E9375BC4B70346956F4",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "7850D080A403FC58CF5AFC578909933BB82D52F314C17E9375BC4B70346956F4"
+    },
+    {
+      "source": "docs/bazi/README.md",
+      "target": "docs/references/mylife/docs/bazi/README.md",
+      "sourceSha256": "ABE88AB1F7B2269454A861E681B3768B72A329CFC9FE9F7391DECD3B19D62121",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "4D60B63583380CAE5774B891E04314AB61A8C985C263F9C9B711C9B26E8B3E06"
+    },
+    {
+      "source": "docs/bazi/IMPLEMENTATION_TRACKER.md",
+      "target": "docs/references/mylife/docs/bazi/IMPLEMENTATION_TRACKER.md",
+      "sourceSha256": "6236EE08FF8ED48EE5F87FD36D5BA20D5375D12651C55DB7745E1E49CD6BE8F8",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "486F9BC1A533236E8D43E8062FC2601296FCE10A54335A03902AD7BBE3ECE4F6"
+    },
+    {
+      "source": "docs/bazi/ENGINE_SPEC.md",
+      "target": "docs/references/mylife/docs/bazi/ENGINE_SPEC.md",
+      "sourceSha256": "0D244186A576FC5F4742DF98435F82C5B848600FF3CFCC892619C78E12515D7A",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "E855276C19640949A5F1018A19039056127C710D1715FBDDD73965274684284E"
+    },
+    {
+      "source": "docs/bazi/RULE_SOURCES.md",
+      "target": "docs/references/mylife/docs/bazi/RULE_SOURCES.md",
+      "sourceSha256": "4AC644D0E04C810C90A719F042360A8CFF2855506015492C4158C7F0F0B54B0D",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "33AF000786B6E1CF05AA15070371D6CF5AEB28805F2CDCCC9598E66F91452CF6"
+    },
+    {
+      "source": "docs/bazi/CALENDAR_SOURCES.md",
+      "target": "docs/references/mylife/docs/bazi/CALENDAR_SOURCES.md",
+      "sourceSha256": "A4B1C867B5464ECAF7C834DED1E14626054A91E986223EE4625555A9CEA455B6",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "1B16673FC9201B92B3015F5DD9EC459F0CDF3577129576B37483310529336262"
+    },
+    {
+      "source": "docs/bazi/adr/ADR-004-strength-model.md",
+      "target": "docs/references/mylife/docs/bazi/adr/ADR-004-strength-model.md",
+      "sourceSha256": "5E532D9887FAF4A97A894A8B4AEAF23F37DD6D00741EED8B3DAAB4E23727E23F",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "5E532D9887FAF4A97A894A8B4AEAF23F37DD6D00741EED8B3DAAB4E23727E23F"
+    },
+    {
+      "source": "docs/bazi/adr/ADR-005-pattern-model.md",
+      "target": "docs/references/mylife/docs/bazi/adr/ADR-005-pattern-model.md",
+      "sourceSha256": "309D82A6989F80110CC7D2A9C4D03F082CFB0173C2E0458350B5BCC8ECE25CEA",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "309D82A6989F80110CC7D2A9C4D03F082CFB0173C2E0458350B5BCC8ECE25CEA"
+    },
+    {
+      "source": "docs/bazi/adr/ADR-006-yongshin-priority.md",
+      "target": "docs/references/mylife/docs/bazi/adr/ADR-006-yongshin-priority.md",
+      "sourceSha256": "375A0FCC4C4B0FB148365329AFB9898773F41A14C24B347BF7AD286C438E8F9A",
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "375A0FCC4C4B0FB148365329AFB9898773F41A14C24B347BF7AD286C438E8F9A"
+    },
+    {
+      "source": "docs/bazi/adr/ADR-007-guest-session-and-account-login.md",
+      "target": "docs/references/mylife/docs/bazi/adr/ADR-007-guest-session-and-account-login.md",
+      "sourceSha256": "2DEC3C65A15214D63125983C329CD730198D0B276D0C1C30C5DABBA7F8A54830",
+      "transformed": true,
+      "transformation": "Relative links resolved to copied files or pinned source history",
+      "targetSha256": "58AB6A9536CE791F46CADE1F53AC1E6A4D5044247FC982A5197F4C4C1F0B4490"
+    },
+    {
+      "source": null,
+      "target": "pnpm-workspace.yaml",
+      "sourceSha256": null,
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "D62656ECDFE98EC8DF03D0352C4D2374A7B77C0320F1B6E3AA323D97D3C0C9F2"
+    },
+    {
+      "source": null,
+      "target": "tsconfig.json",
+      "sourceSha256": null,
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "7F0556FD3F7E629B1E5C717AEA876EF7349AC479C76AECC541E3091195B7CA09"
+    },
+    {
+      "source": null,
+      "target": "README.md",
+      "sourceSha256": null,
+      "transformed": true,
+      "transformation": "Final standalone paths, ignore rules, and implementation status updated",
+      "targetSha256": "1294DCF5B1BE8FBFB57C3BAF133D3A86D49F9DBCCB6BF2250D23EEA238710BE4"
+    },
+    {
+      "source": null,
+      "target": ".gitignore",
+      "sourceSha256": null,
+      "transformed": true,
+      "transformation": "Final standalone paths, ignore rules, and implementation status updated",
+      "targetSha256": "74DE4EF4380748C59248A449D86526ABDEA193A9D8DD69F8361E5805973F3A78"
+    },
+    {
+      "source": null,
+      "target": "package.json",
+      "sourceSha256": null,
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "BB2834E3617117A26B8AADAB9947106FC05F061B63B8D1D8FBD730098B09A263"
+    },
+    {
+      "source": null,
+      "target": "docs/references/mylife/README.md",
+      "sourceSha256": null,
+      "transformed": false,
+      "transformation": null,
+      "targetSha256": "64817AB5A4FFE5076C617628F792AAD1F8E4406113265F19F431AC5373AAEA9C"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {"pattern": "병자", "category": "VULGARITY", "reason": "비속어 및 불쾌한 어감 유발"},
+  {"pattern": "강간", "category": "VULGARITY", "reason": "부정적 범죄 단어 연상"},
+  {"pattern": "신발", "category": "VULGARITY", "reason": "욕설 어감 연상"},
+  {"pattern": "박규", "category": "VULGARITY", "reason": "외국어 비속어 연상 (Fuck you)"},
+  {"pattern": "지랄", "category": "VULGARITY", "reason": "비속어"},
+  {"pattern": "사망", "category": "NEGATIVE_MEANING", "reason": "죽음을 뜻함"},
+  {"pattern": "파산", "category": "NEGATIVE_MEANING", "reason": "재산 상실을 뜻함"},
+  {"pattern": "범죄", "category": "NEGATIVE_MEANING", "reason": "부정적 어감"},
+  {"pattern": "시체", "category": "NEGATIVE_MEANING", "reason": "부정적 어감"},
+  {"pattern": "암걸", "category": "HARD_PRONUNCIATION", "reason": "난발음 및 부정어 연상"},
+  {"pattern": "가난", "category": "NEGATIVE_MEANING", "reason": "빈곤 연상"},
+  {"pattern": "거지", "category": "VULGARITY", "reason": "놀림감 요인"},
+  {"pattern": "바보", "category": "VULGARITY", "reason": "놀림감 요인"},
+  {"pattern": "멍청", "category": "VULGARITY", "reason": "놀림감 요인"}
+]

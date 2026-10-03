@@ -1,0 +1,350 @@
+{
+  "version": "2026-10-03.expansion-3",
+  "reviewer": "Codex research agent (AI)",
+  "status": "nine_additional_pairs_reviewed_not_200_complete",
+  "source": {
+    "url": "https://unicode.org/ivd/krname/hanja.pdf",
+    "provenance_url": "https://unicode.org/ivd/krname/",
+    "relationship": "Unicode-hosted copy of Korean court table; not downloaded from court server",
+    "effective_date_shown": "2024-06-11",
+    "local_path": ".cache/name-hanja-research/2024-06-11-hanja-unicode-hosted.pdf",
+    "bytes": 23984101,
+    "sha256": "A2B3C6F2E16614225CD01A4CFE561E2516B67A5E03F249A66B64AEA9414A0C97",
+    "pages": 63,
+    "machine_codepoint_mapping_verified": false,
+    "current_2026_table_diff_checked": false
+  },
+  "rows": [
+    {
+      "character": "圭",
+      "reading": "규",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 15,
+      "printed_page": 6,
+      "locator": "규 별표1 첫 글자",
+      "meaning": "의례에 쓰던 옥제 기물",
+      "meaning_source": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E5%9C%AD&title=%E5%9C%AD",
+      "element": null,
+      "element_status": "EARTH_not_supported_by_shape_alone",
+      "original_strokes": 6,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "土",
+        "radical_strokes": 3,
+        "outside_strokes": 3,
+        "kangxi_total": 6,
+        "tongwen": [
+          224,
+          2
+        ],
+        "wuying": [
+          1044,
+          4
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E5%9C%AD",
+        "scan_visually_verified": false,
+        "checked_at": "2026-09-30"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "EARTH_not_supported_by_shape_alone"
+      ]
+    },
+    {
+      "character": "垣",
+      "reading": "원",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 41,
+      "printed_page": 32,
+      "locator": "원 별표1 첫 행 둘째",
+      "meaning": "낮은 담, 담장",
+      "meaning_source": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E5%9E%A3&title=%E5%9E%A3",
+      "element": "EARTH",
+      "element_status": "candidate_interpretation_material_less_direct_than_soil",
+      "element_policy": "semantic-material-v1",
+      "original_strokes": 9,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "土",
+        "radical_strokes": 3,
+        "outside_strokes": 6,
+        "kangxi_total": 9,
+        "tongwen": [
+          228,
+          20
+        ],
+        "wuying": [
+          1064,
+          3
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E5%9E%A3",
+        "scan_visually_verified": false,
+        "checked_at": "2026-09-30"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "candidate_interpretation_material_less_direct_than_soil"
+      ]
+    },
+    {
+      "character": "垠",
+      "reading": "은",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 42,
+      "printed_page": 33,
+      "locator": "은 별표1 첫 글자",
+      "meaning": "땅의 경계와 가장자리, 물가의 언덕",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=7868",
+      "element": "EARTH",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "original_strokes": 9,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "土",
+        "radical_strokes": 3,
+        "outside_strokes": 6,
+        "kangxi_total": 9,
+        "tongwen": [
+          228,
+          14
+        ],
+        "wuying": [
+          1063,
+          6
+        ],
+        "source": "https://kangxizidian.com/kxhans/%E5%9E%A0",
+        "scan_visually_verified": false,
+        "checked_at": "2026-09-30"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "堉",
+      "reading": "육",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 42,
+      "printed_page": 33,
+      "locator": "육 별표1 첫 글자",
+      "meaning": "기름진 흙",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=81472&la=0",
+      "element": "EARTH",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "original_strokes": 11,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "土",
+        "radical_strokes": 3,
+        "outside_strokes": 8,
+        "kangxi_total": 11,
+        "tongwen": [
+          232,
+          7
+        ],
+        "wuying": [
+          1082,
+          2
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E5%A0%89",
+        "scan_visually_verified": false,
+        "checked_at": "2026-09-30"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "培",
+      "reading": "배",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 27,
+      "printed_page": 18,
+      "locator": "배 교육용 첫 행 넷째",
+      "meaning": "식물의 뿌리에 흙을 더해 북돋다",
+      "meaning_source": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%9F%B9",
+      "element": "EARTH",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "original_strokes": 11,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "土",
+        "radical_strokes": 3,
+        "outside_strokes": 8,
+        "kangxi_total": 11,
+        "tongwen": [
+          231,
+          11
+        ],
+        "wuying": [
+          1077,
+          2
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E5%9F%B9",
+        "scan_visually_verified": false,
+        "checked_at": "2026-09-30"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "燦",
+      "reading": "찬",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 50,
+      "printed_page": 41,
+      "locator": "찬 별표1 첫 줄 다섯째",
+      "meaning": "등불과 촛불처럼 선명하게 빛나는 모습",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26466",
+      "element": "FIRE",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "traditional_naming_classification_verified": false,
+      "review_note": "2026-10-03-fire-hanja-four-pairs.md",
+      "original_strokes": 17,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "火",
+        "radical_strokes": 4,
+        "outside_strokes": 13,
+        "kangxi_total": 17,
+        "tongwen": [
+          684,
+          30
+        ],
+        "wuying": [
+          3267,
+          2
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E7%87%A6",
+        "scan_visually_verified": false,
+        "checked_at": "2026-10-03"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "熙",
+      "reading": "희",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 63,
+      "printed_page": 54,
+      "locator": "희 별표1 둘째 줄 넷째",
+      "meaning": "밝음과 화락함",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26143",
+      "element": null,
+      "element_status": "FIRE_not_confirmed_by_reviewed_semantics",
+      "element_policy": "semantic-material-v1",
+      "traditional_naming_classification_verified": false,
+      "review_note": "2026-10-03-fire-hanja-four-pairs.md",
+      "original_strokes": 13,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "火",
+        "radical_strokes": 4,
+        "outside_strokes": 9,
+        "kangxi_total": 13,
+        "tongwen": [
+          676,
+          17
+        ],
+        "wuying": [
+          3230,
+          1
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E7%86%99",
+        "scan_visually_verified": false,
+        "checked_at": "2026-10-03"
+      },
+      "recommendation_eligible": false,
+      "remaining_gates": [
+        "FIRE_not_confirmed_by_reviewed_semantics"
+      ]
+    },
+    {
+      "character": "炯",
+      "reading": "형",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 59,
+      "printed_page": 50,
+      "locator": "형 별표1 첫 줄 다섯째",
+      "meaning": "불빛처럼 환하고 밝은 모습",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=25678",
+      "element": "FIRE",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "traditional_naming_classification_verified": false,
+      "review_note": "2026-10-03-fire-hanja-four-pairs.md",
+      "original_strokes": 9,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "火",
+        "radical_strokes": 4,
+        "outside_strokes": 5,
+        "kangxi_total": 9,
+        "tongwen": [
+          668,
+          26
+        ],
+        "wuying": [
+          3194,
+          2
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E7%82%AF",
+        "scan_visually_verified": false,
+        "checked_at": "2026-10-03"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    },
+    {
+      "character": "煐",
+      "reading": "영",
+      "official_status": "2024_table_hosted_copy_visual_verified",
+      "pdf_page": 39,
+      "printed_page": 30,
+      "locator": "영 별표1 셋째 줄 여섯째",
+      "meaning": "불빛의 빛깔",
+      "meaning_source": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=91143",
+      "element": "FIRE",
+      "element_status": "reviewed_service_interpretation",
+      "element_policy": "semantic-material-v1",
+      "traditional_naming_classification_verified": false,
+      "review_note": "2026-10-03-fire-hanja-four-pairs.md",
+      "original_strokes": 13,
+      "original_strokes_status": "kangxi_transcription_entry_checked",
+      "original_strokes_evidence": {
+        "policy": "kangxi-tongwen-entry-v1",
+        "radical": "火",
+        "radical_strokes": 4,
+        "outside_strokes": 9,
+        "kangxi_total": 13,
+        "tongwen": [
+          676,
+          12
+        ],
+        "wuying": [
+          3228,
+          5
+        ],
+        "source": "https://www.kangxizidian.com/kxhans/%E7%85%90",
+        "scan_visually_verified": false,
+        "checked_at": "2026-10-03"
+      },
+      "recommendation_eligible": true,
+      "remaining_gates": []
+    }
+  ],
+  "combination_naturalness": "soft_ranking_not_character_eligibility_gate",
+  "production_dictionary_modified": false,
+  "eligibility_scope_note": "true는 2024-06-11 표 사본 범위의 연구 단계 글자 후보 자격이며, 현재 법원 목록·배포권 또는 이름 조합 자격을 보증하지 않는다."
+}

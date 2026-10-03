@@ -1,0 +1,150 @@
+{
+  "source": "神峰通考 楠曰 曲直仁寿格 oldid=1378606",
+  "expected": [
+    "壬寅",
+    "癸卯",
+    "甲子",
+    "戊辰"
+  ],
+  "matches": [
+    {
+      "birthDate": "1962-03-27",
+      "birthTime": "08:00",
+      "pillars": [
+        "壬寅",
+        "癸卯",
+        "甲子",
+        "戊辰"
+      ],
+      "normalization": {
+        "kind": "instant",
+        "solarDate": "1962-03-27",
+        "timezoneId": "Asia/Seoul",
+        "evidence": [
+          {
+            "ruleCode": "FOUR_PILLARS_STANDARD_V1",
+            "rulesetVersion": "mylife-standard-v1",
+            "references": [
+              {
+                "kind": "input",
+                "field": "birthDate"
+              },
+              {
+                "kind": "input",
+                "field": "birthTime"
+              },
+              {
+                "kind": "input",
+                "field": "timeAccuracy"
+              }
+            ]
+          },
+          {
+            "ruleCode": "YEAR_LICHUN_UTC_V1",
+            "rulesetVersion": "mylife-standard-v1",
+            "references": [
+              {
+                "kind": "input",
+                "field": "birthDate"
+              },
+              {
+                "kind": "input",
+                "field": "timezoneId"
+              },
+              {
+                "kind": "input",
+                "field": "longitude"
+              }
+            ]
+          },
+          {
+            "ruleCode": "MONTH_TWELVE_JIE_V1",
+            "rulesetVersion": "mylife-standard-v1",
+            "references": [
+              {
+                "kind": "input",
+                "field": "birthDate"
+              },
+              {
+                "kind": "input",
+                "field": "timezoneId"
+              },
+              {
+                "kind": "input",
+                "field": "longitude"
+              }
+            ]
+          },
+          {
+            "ruleCode": "DAY_SOLAR_2300_V1",
+            "rulesetVersion": "mylife-standard-v1",
+            "references": [
+              {
+                "kind": "input",
+                "field": "birthDate"
+              },
+              {
+                "kind": "input",
+                "field": "timezoneId"
+              },
+              {
+                "kind": "input",
+                "field": "longitude"
+              }
+            ]
+          },
+          {
+            "ruleCode": "HOUR_ROLLED_DAY_V1",
+            "rulesetVersion": "mylife-standard-v1",
+            "references": [
+              {
+                "kind": "input",
+                "field": "birthDate"
+              },
+              {
+                "kind": "input",
+                "field": "timezoneId"
+              },
+              {
+                "kind": "input",
+                "field": "longitude"
+              }
+            ]
+          }
+        ],
+        "candidates": [
+          {
+            "instantUtcMs": -245120400000,
+            "offsetSeconds": 32400,
+            "longitudeSeconds": 30474.719999999998,
+            "equationOfTimeSeconds": -341.42729334475064,
+            "trueSolarTime": {
+              "date": "1962-03-27",
+              "time": "07:22:13.292"
+            },
+            "evidence": [
+              {
+                "ruleCode": "TRUE_SOLAR_TIME_UTC_LONGITUDE_EOT_V1",
+                "rulesetVersion": "mylife-standard-v1",
+                "references": [
+                  {
+                    "kind": "input",
+                    "field": "longitude"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "versions": {
+    "engineVersion": "bazi-engine-calendar-v1",
+    "rulesetVersion": "mylife-standard-v1",
+    "calendarVersion": "astronomy-engine@2.1.19/ut-as-utc/espenak-meeus/v1",
+    "timezoneVersion": "moment-timezone@0.6.0/moment@2.31.0/tzdb@2025b",
+    "lunarCalendarVersion": "korean-lunar-calendar@0.4.0"
+  },
+  "limitation": "Calendar equivalent only, not the historical person’s birth data or a validation of predicted life events."
+}

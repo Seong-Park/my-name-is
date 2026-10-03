@@ -1,0 +1,23 @@
+{
+  "name": "@mylife/bazi-engine",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@mylife/bazi-domain": "workspace:*",
+    "@mylife/bazi-rules": "workspace:*",
+    "astronomy-engine": "2.1.19",
+    "korean-lunar-calendar": "0.4.0",
+    "moment-timezone": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "vitest": "1.6.1"
+  }
+}

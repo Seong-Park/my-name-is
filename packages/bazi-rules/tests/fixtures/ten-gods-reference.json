@@ -1,0 +1,18 @@
+{
+  "sourceIds": ["SMMT-05"],
+  "locator": "論古人立印食官財名義; 論正官/正財/印綬/偏印/食神/傷官; day-master five-element generation/control and polarity, manually expanded",
+  "note": "Independent hand-worked 100-cell expectations. Not a verbatim ancient 10x10 table, not generated from implementation. Same element=same polarity 比肩/opposite 劫財; output=same 食神/opposite 傷官; wealth=same 偏財/opposite 正財; controller=same 七殺/opposite 正官; resource=same 偏印/opposite 正印.",
+  "targets": ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"],
+  "rows": [
+    { "dayMaster": "甲", "expected": ["比肩", "劫財", "食神", "傷官", "偏財", "正財", "七殺", "正官", "偏印", "正印"] },
+    { "dayMaster": "乙", "expected": ["劫財", "比肩", "傷官", "食神", "正財", "偏財", "正官", "七殺", "正印", "偏印"] },
+    { "dayMaster": "丙", "expected": ["偏印", "正印", "比肩", "劫財", "食神", "傷官", "偏財", "正財", "七殺", "正官"] },
+    { "dayMaster": "丁", "expected": ["正印", "偏印", "劫財", "比肩", "傷官", "食神", "正財", "偏財", "正官", "七殺"] },
+    { "dayMaster": "戊", "expected": ["七殺", "正官", "偏印", "正印", "比肩", "劫財", "食神", "傷官", "偏財", "正財"] },
+    { "dayMaster": "己", "expected": ["正官", "七殺", "正印", "偏印", "劫財", "比肩", "傷官", "食神", "正財", "偏財"] },
+    { "dayMaster": "庚", "expected": ["偏財", "正財", "七殺", "正官", "偏印", "正印", "比肩", "劫財", "食神", "傷官"] },
+    { "dayMaster": "辛", "expected": ["正財", "偏財", "正官", "七殺", "正印", "偏印", "劫財", "比肩", "傷官", "食神"] },
+    { "dayMaster": "壬", "expected": ["食神", "傷官", "偏財", "正財", "七殺", "正官", "偏印", "正印", "比肩", "劫財"] },
+    { "dayMaster": "癸", "expected": ["傷官", "食神", "正財", "偏財", "正官", "七殺", "正印", "偏印", "劫財", "比肩"] }
+  ]
+}

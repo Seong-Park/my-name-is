@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+.turbo/
+.migration-originals/
+.env
+.env.*
+!.env.example
+.cache/
+.next/
+*.tsbuildinfo
+__pycache__/
+*.pyc

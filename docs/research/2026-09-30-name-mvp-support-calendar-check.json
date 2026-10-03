@@ -1,0 +1,37 @@
+{
+  "status": "calendar_engine_check_not_run",
+  "scope": "M3 calculateFourPillars; Seoul, 1914/1974 March; civil times 00:00, 04:00, 06:00, 08:00, 12:00, 18:00",
+  "script": "scripts/verify-name-support-calendar.ts",
+  "attempts": [
+    {
+      "command": "node_modules/.bin/tsx scripts/verify-name-support-calendar.ts",
+      "result": "failed_before_execution",
+      "error": "esbuild service spawn EPERM"
+    },
+    {
+      "command": "node --experimental-strip-types scripts/verify-name-support-calendar.ts",
+      "result": "failed_before_engine_calculation",
+      "error": "Cannot find package korean-lunar-calendar; it is not installed in this checkout's resolvable dependencies."
+    },
+    {
+      "command": "node_modules/.bin/tsx scripts/verify-name-support-calendar.ts (require_escalated)",
+      "result": "failed_before_execution",
+      "error": "esbuild host version 0.28.2 does not match installed binary version 0.19.12"
+    }
+  ],
+  "positiveCount": null,
+  "controlCount": null,
+  "records": [],
+  "limitations": [
+    "No calendar-connected positive or negative cases were produced.",
+    "No custom calendar or ganzhi algorithm was substituted.",
+    "The engine search should be rerun when the declared dependencies are available and the runtime can spawn esbuild.",
+    "A locked offline dependency restore was attempted but interrupted during node_modules recreation; engine dependencies remain unavailable and environment state may be partially recreated."
+  ],
+  "dependency_restore_attempt": {
+    "command": "CI=true pnpm --filter @mylife/bazi-engine install --offline --frozen-lockfile",
+    "result": "interrupted_after_recreation_stalled",
+    "last_output": "Recreating C:\\workspace\\mylife\\node_modules",
+    "note": "Interrupted at parent request after the process remained active for over three minutes without further output; do not treat the partially recreated node_modules as restored."
+  }
+}
